@@ -55,7 +55,7 @@ export function Header() {
             className="hidden sm:inline-flex items-center gap-2 rounded-full bg-amber text-bg-primary px-4 py-2 text-xs font-bold uppercase tracking-wider hover:bg-amber-hover transition-all duration-300 ease-haptic active:scale-[0.98]"
           >
             <Phone weight="bold" size={14} />
-            <span>WhatsApp 24/7</span>
+            <span>Hubungi Kami</span>
           </a>
           <button
             type="button"
@@ -92,7 +92,7 @@ export function Header() {
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-amber text-bg-primary px-6 py-3 text-sm font-bold uppercase tracking-wider"
             >
               <Phone weight="bold" size={16} />
-              WhatsApp {contact.phone}
+              Hubungi {contact.phone}
             </a>
           </div>
         </nav>

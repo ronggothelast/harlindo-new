@@ -6,20 +6,20 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://harlindojaya.com"),
   title: {
-    default: "HarlindoJaya — Heavy Duty Machine Rental | Genset 20kVA-2000kVA",
+    default: "HarlindoJaya — Solusi Rental Generator Industri 20–2000 kVA",
     template: "%s | HarlindoJaya",
   },
   description:
-    "Rental, jual beli, dan service genset 20kVA hingga 2000kVA. Power house, overhaul, paralelisasi. 24/7 Jabotabek, Cikarang, Karawang. Pilihan terbaik untuk harga terbaik.",
+    "Penyedia rental, penjualan, dan layanan teknis generator dengan kapasitas 20 kVA hingga 2000 kVA. Mencakup powerhouse, overhaul, dan paralelisasi. Dukungan teknis 24 jam untuk Jabodetabek, Cikarang, dan Karawang.",
   keywords: [
     "rental genset",
     "jual genset",
-    "service genset",
+    "layanan teknis genset",
     "overhaul genset",
-    "power house",
-    "genset jabotabek",
+    "powerhouse",
+    "genset jabodetabek",
     "harlindojaya",
-    "generator set",
+    "generator set industri",
   ],
   authors: [{ name: "HarlindoJaya" }],
   openGraph: {
@@ -27,9 +27,9 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: "https://harlindojaya.com",
     siteName: "HarlindoJaya",
-    title: "HarlindoJaya — Heavy Duty Machine Rental",
+    title: "HarlindoJaya — Solusi Rental Generator Profesional",
     description:
-      "Pilihan terbaik untuk harga terbaik. Genset 20kVA-2000kVA. 24/7 Jabotabek.",
+      "Solusi power profesional untuk industri Indonesia. Generator 20 kVA hingga 2000 kVA dengan dukungan teknis 24 jam.",
     images: [
       {
         url: "/images/fav-logo1.png",
@@ -41,8 +41,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HarlindoJaya — Heavy Duty Machine Rental",
-    description: "Genset 20kVA-2000kVA. 24/7 Jabotabek.",
+    title: "HarlindoJaya — Solusi Rental Generator Profesional",
+    description:
+      "Generator 20 kVA hingga 2000 kVA dengan dukungan teknis 24 jam untuk Jabodetabek.",
   },
   robots: { index: true, follow: true },
   icons: {
@@ -89,7 +90,7 @@ export default function RootLayout({
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:bg-amber focus:text-bg-primary focus:px-4 focus:py-2 focus:rounded"
         >
-          Skip to main content
+          Lewati ke konten utama
         </a>
         {children}
       </body>

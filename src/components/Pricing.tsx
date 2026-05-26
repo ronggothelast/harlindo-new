@@ -17,9 +17,9 @@ export function Pricing() {
               id="pricing-title"
               className="text-4xl lg:text-6xl font-bold leading-[1.05] tracking-tightest"
             >
-              Transparan.
+              Harga transparan.
               <br />
-              <span className="text-amber italic font-light">All-in BBM.</span>
+              <span className="text-amber italic font-light">Termasuk BBM 12 jam.</span>
             </h2>
           </div>
           <div className="lg:col-span-5 lg:pl-12 space-y-3">
@@ -54,7 +54,7 @@ export function Pricing() {
                 </span>
                 {p.popular && (
                   <span className="text-[9px] uppercase tracking-[0.2em] text-amber font-bold">
-                    Popular
+                    Pilihan Populer
                   </span>
                 )}
               </div>
@@ -87,7 +87,7 @@ export function Pricing() {
             <div className="grid lg:grid-cols-2 gap-6 items-center">
               <div>
                 <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-amber mb-3 inline-block">
-                  Custom Capacity
+                  Kapasitas Khusus
                 </span>
                 <h3 className="text-2xl lg:text-3xl font-bold tracking-tight mb-2">
                   {specialCapacity.range}
@@ -99,13 +99,13 @@ export function Pricing() {
               <div className="flex lg:justify-end">
                 <a
                   href={whatsappLink(
-                    "Halo, saya butuh konsultasi untuk genset kapasitas besar (750-2000 kVA)."
+                    "Selamat siang, kami memerlukan konsultasi untuk genset kapasitas besar (750–2000 kVA) untuk kebutuhan industri kami."
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-amber"
                 >
-                  <span className="pl-2">Konsultasi Khusus</span>
+                  <span className="pl-2">Permintaan Penawaran Khusus</span>
                   <span className="btn-icon-wrap">
                     <ArrowUpRight weight="light" size={16} />
                   </span>

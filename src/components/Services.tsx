@@ -25,17 +25,18 @@ export function Services() {
               id="services-title"
               className="text-4xl lg:text-6xl font-bold leading-[1.05] tracking-tightest"
             >
-              Solusi power lengkap.
+              Solusi power terintegrasi.
               <br />
               <span className="text-fg-secondary font-light italic">
-                End-to-end.
+                Dari hulu hingga hilir.
               </span>
             </h2>
           </div>
           <div className="lg:col-span-5 lg:pl-12">
             <p className="text-base lg:text-lg text-fg-secondary leading-relaxed">
-              Dari rental harian hingga overhaul mesin industri. Tangan pertama,
-              unit milik sendiri, dengan tim teknisi 24/7.
+              Spektrum layanan lengkap mulai dari rental harian hingga overhaul
+              mesin industri, didukung tim teknisi internal dengan respons 24
+              jam.
             </p>
           </div>
         </div>
@@ -91,7 +92,7 @@ export function Services() {
                   )}
 
                   <div className="mt-6 flex items-center gap-2 text-amber text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                    Konsultasi <ArrowUpRight size={14} weight="light" />
+                    Konsultasi Layanan <ArrowUpRight size={14} weight="light" />
                   </div>
                 </div>
               </article>

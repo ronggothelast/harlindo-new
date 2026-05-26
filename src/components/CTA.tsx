@@ -21,20 +21,21 @@ export function CTA() {
         <div className="rounded-[2rem] bg-bg-surface/60 border border-line p-1.5 shadow-card-deep">
           <div className="rounded-[calc(2rem-0.375rem)] bg-bg-card shadow-card-inset p-10 lg:p-16 xl:p-20 text-center space-y-8">
             <Eyebrow variant="amber" className="inline-flex">
-              Siap Bantu 24/7
+              Tim Siaga 24 Jam
             </Eyebrow>
 
             <h2
               id="cta-title"
               className="text-4xl lg:text-6xl xl:text-7xl font-bold leading-[1.05] tracking-tightest max-w-4xl mx-auto"
             >
-              Butuh power
-              <br className="hidden lg:block" /> sekarang juga?
+              Membutuhkan solusi
+              <br className="hidden lg:block" /> power segera?
             </h2>
 
             <p className="text-lg lg:text-xl text-fg-secondary max-w-2xl mx-auto leading-relaxed">
-              Hubungi kami via WhatsApp untuk konsultasi cepat. Tim kami siap
-              membantu menentukan unit yang tepat untuk kebutuhan proyek Anda.
+              Hubungi tim kami melalui WhatsApp untuk konsultasi dan penawaran
+              terkonfigurasi sesuai kebutuhan proyek Anda. Kami merespons setiap
+              permintaan dengan cepat dan profesional.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
@@ -44,7 +45,7 @@ export function CTA() {
                 rel="noopener noreferrer"
                 className="btn-amber"
               >
-                <span className="pl-2">WhatsApp Sekarang</span>
+                <span className="pl-2">Hubungi via WhatsApp</span>
                 <span className="btn-icon-wrap">
                   <WhatsappLogo weight="bold" size={16} />
                 </span>
@@ -71,7 +72,7 @@ export function CTA() {
               </div>
               <div className="space-y-1">
                 <div className="text-[10px] uppercase tracking-[0.25em] text-fg-muted">
-                  Lokasi
+                  Lokasi Kantor
                 </div>
                 <div className="text-sm text-fg-primary leading-snug">
                   {contact.address.area}
@@ -79,7 +80,7 @@ export function CTA() {
               </div>
               <div className="space-y-1">
                 <div className="text-[10px] uppercase tracking-[0.25em] text-fg-muted">
-                  Service Area
+                  Wilayah Layanan
                 </div>
                 <div className="text-sm text-fg-primary">
                   {contact.serviceArea.join(" · ")}

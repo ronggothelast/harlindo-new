@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   title: "Kontak",
   description:
-    "Hubungi HarlindoJaya via WhatsApp +62 81281104105 untuk konsultasi rental genset 24/7. Atau email contact@harlindojaya.com.",
+    "Hubungi tim HarlindoJaya melalui WhatsApp +62 81281104105 untuk konsultasi rental generator. Tim kami siap merespons setiap permintaan, atau kirimkan email ke contact@harlindojaya.com.",
 };
 
 const channels = [
@@ -24,25 +24,25 @@ const channels = [
     icon: WhatsappLogo,
     label: "WhatsApp",
     value: contact.phone,
-    sub: "Respon cepat 24/7 — channel utama",
+    sub: "Kanal utama untuk konsultasi cepat dan respons 24 jam",
     href: whatsappLink(),
-    cta: "Chat Sekarang",
+    cta: "Kirim Pesan",
     primary: true,
   },
   {
     icon: Phone,
     label: "Telepon",
     value: contact.phone,
-    sub: "Suara langsung untuk emergency",
+    sub: "Komunikasi langsung untuk kebutuhan mendesak",
     href: `tel:${contact.phoneRaw}`,
-    cta: "Telepon",
+    cta: "Hubungi via Telepon",
     primary: false,
   },
   {
     icon: Envelope,
     label: "Email",
     value: contact.email,
-    sub: "Untuk dokumen, PO, dan korespondensi formal",
+    sub: "Untuk dokumen, purchase order, dan korespondensi formal",
     href: `mailto:${contact.email}`,
     cta: "Kirim Email",
     primary: false,
@@ -51,9 +51,9 @@ const channels = [
     icon: InstagramLogo,
     label: "Instagram",
     value: "@HarlindoJaya",
-    sub: "Update unit, proyek, dan portfolio terbaru",
+    sub: "Pembaruan unit, dokumentasi proyek, dan portofolio",
     href: social.instagram,
-    cta: "Follow",
+    cta: "Ikuti Kami",
     primary: false,
   },
 ];
@@ -65,12 +65,12 @@ export default function KontakPage() {
         eyebrow="Hubungi Kami"
         title={
           <>
-            24/7 ready
+            Tim siaga
             <br />
             <span className="text-amber italic font-light">untuk Anda.</span>
           </>
         }
-        description="Tim kami siaga setiap saat untuk konsultasi, booking, dan emergency response. Pilih channel yang paling nyaman."
+        description="Tim kami siap memberikan respons cepat untuk konsultasi, pemesanan, dan kebutuhan dukungan teknis. Silakan pilih kanal komunikasi yang paling sesuai."
       />
 
       {/* Contact channels */}
@@ -154,10 +154,10 @@ export default function KontakPage() {
             <div className="space-y-6">
               <Eyebrow>Lokasi Kantor</Eyebrow>
               <h2 className="text-3xl lg:text-5xl font-bold tracking-tight leading-[1.05]">
-                Kunjungi atau
+                Kunjungan dan
                 <br />
                 <span className="text-amber italic font-light">
-                  jadwalkan survey.
+                  jadwal survei lokasi.
                 </span>
               </h2>
 
@@ -186,7 +186,7 @@ export default function KontakPage() {
                   />
                   <div>
                     <div className="text-[10px] uppercase tracking-[0.25em] text-fg-muted mb-1">
-                      Operasional
+                      Jam Operasional
                     </div>
                     <div className="text-base text-fg-primary">
                       {contact.hours}
@@ -202,7 +202,7 @@ export default function KontakPage() {
                   />
                   <div>
                     <div className="text-[10px] uppercase tracking-[0.25em] text-fg-muted mb-1">
-                      Service Area
+                      Wilayah Layanan
                     </div>
                     <div className="text-base text-fg-primary">
                       {contact.serviceArea.join(" · ")}
@@ -218,20 +218,20 @@ export default function KontakPage() {
                   rel="noopener noreferrer"
                   className="btn-amber"
                 >
-                  <span className="pl-2">Buka Maps</span>
+                  <span className="pl-2">Buka di Google Maps</span>
                   <span className="btn-icon-wrap">
                     <ArrowUpRight weight="light" size={16} />
                   </span>
                 </a>
                 <a
                   href={whatsappLink(
-                    "Halo, saya ingin jadwalkan survey lokasi proyek."
+                    "Selamat siang, kami ingin menjadwalkan survei lokasi proyek bersama tim HarlindoJaya."
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-ghost"
                 >
-                  <span className="pl-2">Jadwalkan Survey</span>
+                  <span className="pl-2">Jadwalkan Survei Lokasi</span>
                   <span className="btn-icon-wrap">
                     <ArrowUpRight weight="light" size={16} />
                   </span>
@@ -246,7 +246,7 @@ export default function KontakPage() {
                   src="https://maps.google.com/maps?q=Klapanunggal+Bogor&t=&z=11&ie=UTF8&iwloc=&output=embed"
                   className="w-full h-full min-h-[400px] grayscale opacity-80"
                   loading="lazy"
-                  title="HarlindoJaya Location"
+                  title="Lokasi Kantor HarlindoJaya"
                 />
               </div>
             </div>

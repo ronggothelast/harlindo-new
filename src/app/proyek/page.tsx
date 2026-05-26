@@ -9,7 +9,7 @@ import { Buildings, MapPin } from "@phosphor-icons/react/dist/ssr";
 export const metadata: Metadata = {
   title: "Proyek & Klien",
   description:
-    "Daftar klien dan proyek HarlindoJaya — dari konstruksi, farmasi (Pfizer), energi (Halliburton), manufaktur (YKK), hingga pengembang properti.",
+    "Portofolio klien dan proyek HarlindoJaya, mulai dari sektor konstruksi, farmasi (Pfizer), energi (Halliburton), manufaktur (YKK), hingga pengembang properti.",
 };
 
 const projectImages = [
@@ -25,17 +25,17 @@ export default function ProyekPage() {
   return (
     <PageShell>
       <PageHero
-        eyebrow="Portfolio Klien"
+        eyebrow="Portofolio Klien"
         title={
           <>
             Dipercaya
             <br />
             <span className="text-amber italic font-light">
-              perusahaan terkemuka.
+              korporasi terkemuka.
             </span>
           </>
         }
-        description="Dari proyek konstruksi hingga industri farmasi, energi, dan manufaktur. HarlindoJaya melayani kebutuhan power di berbagai sektor strategis."
+        description="Beragam sektor strategis, mulai dari konstruksi, farmasi, energi, hingga manufaktur, telah mempercayakan kebutuhan power mereka kepada HarlindoJaya."
       />
 
       {/* Z-axis cascade portfolio */}
@@ -66,7 +66,7 @@ export default function ProyekPage() {
                         className="absolute inset-0 bg-gradient-to-t from-bg-primary/80 via-transparent to-transparent"
                       />
                       <div className="absolute top-6 left-6 right-6 flex justify-between items-start font-mono text-[10px] uppercase tracking-[0.25em]">
-                        <span className="text-amber">● PROJECT</span>
+                        <span className="text-amber">● PROYEK</span>
                         <span className="text-fg-muted">
                           P{String(i + 1).padStart(3, "0")}
                         </span>
@@ -74,7 +74,7 @@ export default function ProyekPage() {
                       <div className="absolute bottom-6 left-6 right-6 font-mono text-[10px] uppercase tracking-[0.2em] text-fg-muted">
                         <div className="flex justify-between border-t border-line/50 pt-3">
                           <span>{client.location}</span>
-                          <span>COMPLETED</span>
+                          <span>SELESAI</span>
                         </div>
                       </div>
                     </div>
@@ -106,15 +106,15 @@ export default function ProyekPage() {
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
-                      <span className="text-fg-muted">Layanan</span>
+                      <span className="text-fg-muted">Lingkup Layanan</span>
                       <span className="text-fg-primary font-medium">
-                        Rental & Service
+                        Rental & Servis Teknis
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-fg-muted">Status</span>
                       <span className="text-amber font-medium">
-                        ● Trusted Partner
+                        ● Mitra Tepercaya
                       </span>
                     </div>
                   </div>

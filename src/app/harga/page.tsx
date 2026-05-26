@@ -6,7 +6,7 @@ import { Pricing } from "@/components/Pricing";
 export const metadata: Metadata = {
   title: "Daftar Harga",
   description:
-    "Daftar harga rental genset 20kVA - 2000kVA. All-in BBM 12 jam. Mulai dari Rp 2,25jt per hari. Transparan, tanpa biaya tersembunyi.",
+    "Daftar harga rental genset 20 kVA hingga 2000 kVA. Sudah termasuk bahan bakar untuk 12 jam operasional, mulai dari Rp 2.250.000 per hari. Transparan tanpa biaya tersembunyi.",
 };
 
 export default function HargaPage() {
@@ -16,12 +16,12 @@ export default function HargaPage() {
         eyebrow="Daftar Harga 2026"
         title={
           <>
-            Transparan.
+            Harga transparan.
             <br />
-            <span className="text-amber italic font-light">All-in BBM.</span>
+            <span className="text-amber italic font-light">Termasuk BBM 12 jam.</span>
           </>
         }
-        description="15 paket kapasitas dari 20kVA hingga 500kVA, plus custom capacity 750-2000kVA on call. Semua harga sudah termasuk BBM untuk 12 jam operasional."
+        description="Lima belas paket kapasitas dari 20 kVA hingga 500 kVA, serta opsi kapasitas khusus 750–2000 kVA berdasarkan permintaan. Seluruh harga sudah mencakup bahan bakar untuk 12 jam operasional."
       />
       <Pricing />
     </PageShell>

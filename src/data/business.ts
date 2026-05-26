@@ -4,11 +4,11 @@
 export const company = {
   name: "HarlindoJaya",
   legal: "PT",
-  tagline: "Pilihan terbaik untuk harga terbaik",
+  tagline: "Solusi Power Profesional untuk Industri Indonesia",
   description:
-    "Heavy Duty Machine Rental — Genset 20kVA hingga 2000kVA. Barang milik sendiri, unit lengkap, troubleshooting 24 jam.",
+    "Penyedia rental dan layanan teknis Heavy Duty Generator dengan kapasitas 20 kVA hingga 2000 kVA. Seluruh unit milik perusahaan, tersertifikasi, dan didukung tim teknisi siaga 24 jam.",
   certification: "SIO (Surat Izin Operasi)",
-  experience: "Belasan tahun",
+  experience: "Lebih dari satu dekade",
 };
 
 export const contact = {
@@ -16,7 +16,8 @@ export const contact = {
   phoneRaw: "+628**9*****05", // for tel: link
   whatsapp: "62812****4105",
   whatsappBase: "https://wa.me/62812****4105",
-  whatsappMessage: "Halo, saya tertarik dengan layanan rental genset HarlindoJaya. Mohon informasinya.",
+  whatsappMessage:
+    "Selamat siang, kami ingin meminta informasi mengenai layanan rental genset HarlindoJaya. Mohon penawaran dan konsultasi lebih lanjut.",
   email: "contact@harlindojaya.com",
   address: {
     street: "Jl Raya Klapanunggal",
@@ -26,7 +27,7 @@ export const contact = {
     full: "Jl Raya Klapanunggal, Cikahuripan, Klapanunggal, Kabupaten Bogor, Jawa Barat",
   },
   maps: "https://maps.app.goo.gl/fyMaQQvGydHLJ9zD6",
-  hours: "24/7 Operasional",
+  hours: "Operasional 24/7",
   serviceArea: ["Jabodetabek", "Cikarang", "Karawang"],
 };
 
@@ -38,56 +39,56 @@ export const services = [
   {
     id: "rental-genset",
     name: "Rental Genset",
-    short: "Penyewaan unit 20kVA - 2000kVA",
+    short: "Penyewaan Unit 20 kVA – 2000 kVA",
     description:
-      "Penyewaan genset berbagai kapasitas dengan jaminan unit kondisi prima. Barang milik sendiri, siap survei tangan pertama.",
+      "Layanan penyewaan generator set untuk kebutuhan industri, konstruksi, event, dan operasional jangka pendek maupun panjang. Setiap unit telah melalui pengecekan menyeluruh sebelum dikirim ke lokasi pelanggan.",
     features: [
-      "All in BBM 12 jam",
-      "Unit milik sendiri",
-      "Siap survei tangan pertama",
-      "Operator berpengalaman",
+      "Termasuk bahan bakar 12 jam operasional",
+      "Seluruh unit milik perusahaan",
+      "Tersedia survei dan inspeksi langsung",
+      "Operator dan teknisi bersertifikat",
     ],
     icon: "Lightning",
   },
   {
     id: "perawatan",
     name: "Perawatan & Perbaikan Mekanis",
-    short: "Maintenance dan repair profesional",
+    short: "Maintenance dan Repair Profesional",
     description:
-      "Layanan maintenance dan repair mekanis genset dengan teknisi berpengalaman. Preventive dan corrective maintenance.",
+      "Layanan pemeliharaan preventif dan korektif untuk memastikan generator beroperasi pada performa optimal. Ditangani oleh teknisi berpengalaman dengan pendekatan terstandar.",
     features: [
-      "Preventive maintenance",
-      "Corrective maintenance",
-      "Spare parts original",
-      "Teknisi bersertifikat",
+      "Pemeliharaan preventif terjadwal",
+      "Perbaikan korektif menyeluruh",
+      "Penggunaan suku cadang original",
+      "Teknisi bersertifikat industri",
     ],
     icon: "Gear",
   },
   {
     id: "overhaul",
     name: "Overhaul",
-    short: "Overhaul mesin menyeluruh",
+    short: "Rekondisi Mesin Menyeluruh",
     description:
-      "Overhaul menyeluruh mesin genset untuk mengembalikan performa optimal seperti baru.",
+      "Layanan overhaul komprehensif untuk mengembalikan performa generator ke kondisi optimal. Mencakup engine, generator, dan sistem kontrol dengan pengujian performa akhir.",
     features: [
-      "Engine overhaul",
-      "Generator overhaul",
-      "Control system upgrade",
-      "Performance testing",
+      "Engine overhaul lengkap",
+      "Generator overhaul terpadu",
+      "Pemutakhiran sistem kontrol",
+      "Pengujian dan validasi performa",
     ],
     icon: "Wrench",
   },
   {
     id: "instalasi",
     name: "Instalasi & Commissioning",
-    short: "Setup profesional di lokasi",
+    short: "Pemasangan dan Aktivasi di Lokasi",
     description:
-      "Instalasi profesional dan commissioning sistem genset di lokasi proyek. Lengkap dengan training operator.",
+      "Layanan instalasi profesional, commissioning, dan serah terima sistem generator di lokasi proyek. Dilengkapi dokumentasi teknis dan pelatihan operator.",
     features: [
-      "Site survey",
-      "Installation planning",
-      "System commissioning",
-      "Training operator",
+      "Survei lokasi terstandar",
+      "Perencanaan instalasi terinci",
+      "Commissioning sistem lengkap",
+      "Pelatihan operator klien",
     ],
     icon: "Toolbox",
   },
@@ -112,96 +113,104 @@ export const pricing = [
 ];
 
 export const specialCapacity = {
-  range: "750 - 2000 kVA",
-  name: "Kapasitas Besar",
-  price: "On Call",
+  range: "750 – 2000 kVA",
+  name: "Kapasitas Industri Skala Besar",
+  price: "Berdasarkan Permintaan",
   description:
-    "Untuk kebutuhan industri skala besar, hubungi tim kami untuk penawaran khusus.",
+    "Untuk kebutuhan industri skala besar, tim kami menyediakan penawaran terkonfigurasi sesuai spesifikasi proyek dan durasi operasional yang diminta.",
 };
 
 export const pricingNotes = {
-  inclusion: "All in BBM 12 jam",
-  minRental: "1 hari (12 jam)",
-  delivery: "Delivery fee dibahas saat konsultasi lokasi",
-  payment: "DP 50%",
+  inclusion: "Sudah termasuk bahan bakar untuk 12 jam operasional",
+  minRental: "Durasi sewa minimum 1 hari (12 jam)",
+  delivery: "Biaya pengiriman dihitung berdasarkan hasil survei lokasi",
+  payment: "Konfirmasi pemesanan dengan pembayaran muka 50%",
 };
 
 export const howItWorks = [
   {
     step: "01",
-    title: "Hubungi via WhatsApp",
-    description: "Chat tim kami kapan saja, 24/7 ready respon cepat.",
+    title: "Permintaan Awal",
+    description:
+      "Sampaikan kebutuhan Anda melalui WhatsApp atau email. Tim kami merespons setiap permintaan setiap saat.",
   },
   {
     step: "02",
     title: "Konsultasi Kebutuhan",
-    description: "Diskusi kapasitas kVA, durasi, dan spesifikasi yang dibutuhkan.",
+    description:
+      "Diskusi spesifikasi kapasitas, durasi sewa, dan persyaratan teknis bersama tim ahli kami.",
   },
   {
     step: "03",
-    title: "Konsultasi Lokasi",
-    description: "Tim survei lokasi, planning instalasi dan delivery fee.",
+    title: "Survei Lokasi",
+    description:
+      "Tim kami melakukan kunjungan teknis untuk memvalidasi akses, instalasi, dan estimasi pengiriman.",
   },
   {
     step: "04",
-    title: "DP 50%",
-    description: "Konfirmasi booking dengan pembayaran down payment 50%.",
+    title: "Konfirmasi Kontrak",
+    description:
+      "Penerbitan penawaran resmi dan konfirmasi pemesanan melalui pembayaran muka 50%.",
   },
   {
     step: "05",
-    title: "Unit Meluncur",
-    description: "Genset dikirim ke lokasi, instalasi, siap beroperasi.",
+    title: "Mobilisasi Unit",
+    description:
+      "Pengiriman, instalasi, dan commissioning unit di lokasi sesuai jadwal yang disepakati.",
   },
 ];
 
 export const whyChooseUs = [
   {
-    title: "Unit Milik Sendiri",
-    description: "Bukan reseller. Semua unit milik HarlindoJaya, siap di-survei langsung tangan pertama.",
+    title: "Unit Milik Perusahaan",
+    description:
+      "Seluruh armada generator merupakan aset HarlindoJaya, bukan unit pihak ketiga. Hal ini memastikan kontrol kualitas dan kesiapan unit secara langsung.",
     icon: "ShieldCheck",
   },
   {
-    title: "Unit Lengkap",
-    description: "Range lengkap dari 20kVA hingga 2000kVA, semua kapasitas tersedia.",
+    title: "Cakupan Kapasitas Lengkap",
+    description:
+      "Tersedia rentang kapasitas 20 kVA hingga 2000 kVA untuk mengakomodasi kebutuhan komersial maupun industri skala besar.",
     icon: "Stack",
   },
   {
-    title: "Troubleshooting 24 Jam",
-    description: "Layanan emergency 24/7 — tim siaga atasi gangguan kapan saja.",
+    title: "Dukungan Teknis 24 Jam",
+    description:
+      "Tim teknisi kami siap memberikan respons cepat untuk gangguan operasional kapan saja, tujuh hari seminggu.",
     icon: "Clock",
   },
 ];
 
 export const faq = [
   {
-    question: "Apa saja tipe genset yang tersedia untuk disewa?",
+    question: "Tipe genset apa saja yang tersedia untuk disewa?",
     answer:
-      "HarlindoJaya menyediakan berbagai jenis genset dengan kapasitas daya yang beragam, mulai dari 20kVA hingga 2000kVA, untuk memenuhi kebutuhan berbagai jenis acara atau proyek, baik indoor maupun outdoor.",
+      "HarlindoJaya menyediakan beragam unit generator dengan kapasitas mulai dari 20 kVA hingga 2000 kVA, sesuai untuk kebutuhan event, proyek konstruksi, fasilitas industri, dan operasional jangka panjang baik indoor maupun outdoor.",
   },
   {
-    question: "Berapa lama durasi sewa yang bisa dipilih?",
+    question: "Berapa durasi sewa yang dapat dipilih?",
     answer:
-      "Kami menawarkan fleksibilitas dalam durasi sewa genset, mulai dari harian (minimum 1 hari / 12 jam), mingguan, hingga bulanan. Kami juga dapat menyediakan layanan khusus untuk kontrak jangka panjang sesuai kebutuhan proyek Anda.",
+      "Kami menawarkan opsi sewa harian (minimum satu hari atau dua belas jam operasional), mingguan, dan bulanan. Layanan kontrak jangka panjang juga tersedia dan dapat disesuaikan dengan timeline proyek Anda.",
   },
   {
-    question: "Apakah HarlindoJaya menyediakan layanan instalasi dan pengoperasian genset di lokasi?",
+    question: "Apakah HarlindoJaya menyediakan instalasi dan pengoperasian unit di lokasi?",
     answer:
-      "Ya, kami menyediakan layanan instalasi, pengoperasian, dan pemeliharaan genset langsung di lokasi Anda. Tim teknisi kami akan memastikan genset berfungsi dengan optimal selama masa sewa.",
+      "Ya. Kami menyediakan layanan instalasi, commissioning, dan pemeliharaan unit langsung di lokasi proyek. Tim teknisi kami memastikan unit beroperasi sesuai standar performa yang ditetapkan.",
   },
   {
     question: "Bagaimana prosedur pemesanan dan pembayaran rental genset?",
     answer:
-      "Hubungi kami via WhatsApp untuk konsultasi kebutuhan dan lokasi. Setelah disepakati, konfirmasi booking dengan DP 50%. Pembayaran dapat dilakukan via transfer bank atau metode pembayaran lain yang tersedia.",
+      "Permintaan dapat disampaikan melalui WhatsApp atau email untuk konsultasi awal. Setelah penawaran resmi diterbitkan, pemesanan dikonfirmasi dengan pembayaran muka 50%. Pembayaran dapat dilakukan melalui transfer bank atau metode lain yang disepakati.",
   },
   {
-    question: "Apakah ada layanan darurat jika genset mengalami gangguan selama masa sewa?",
+    question: "Apakah tersedia dukungan darurat selama masa sewa?",
     answer:
-      "Kami menyediakan layanan darurat 24/7 untuk memastikan genset yang disewa tetap beroperasi tanpa gangguan. Tim kami akan siap melakukan perbaikan atau penggantian unit jika diperlukan.",
+      "Tersedia. Layanan dukungan darurat kami beroperasi 24 jam untuk memastikan kesinambungan operasional unit yang disewa. Tim kami menangani perbaikan di lokasi atau penggantian unit apabila diperlukan.",
   },
   {
-    question: "Berapa biaya delivery genset ke lokasi?",
+    question: "Bagaimana perhitungan biaya pengiriman ke lokasi?",
     answer:
-      "Biaya delivery dibahas saat konsultasi lokasi karena bergantung pada jarak, akses, dan kapasitas unit. Tim kami akan memberikan estimasi yang transparan setelah survei lokasi.",
+      "Biaya pengiriman ditentukan berdasarkan jarak, kompleksitas akses lokasi, dan kapasitas unit yang dipesan. Estimasi resmi diberikan setelah tim kami menyelesaikan survei lokasi.",
   },
 ];
 
@@ -226,17 +235,17 @@ export const navigation = [
 
 export const seo = {
   baseUrl: "https://harlindojaya.com",
-  defaultTitle: "HarlindoJaya — Heavy Duty Machine Rental | Rental Genset 20-2000kVA",
+  defaultTitle: "HarlindoJaya — Solusi Rental Generator Industri 20–2000 kVA",
   titleTemplate: "%s | HarlindoJaya",
   defaultDescription:
-    "Rental genset profesional 20kVA - 2000kVA. Unit milik sendiri, harga terbaik, troubleshooting 24/7. Melayani Jabodetabek, Cikarang, Karawang.",
+    "Penyedia rental generator profesional untuk kebutuhan industri dan komersial dengan kapasitas 20 kVA hingga 2000 kVA. Bersertifikasi SIO, dukungan teknis 24 jam, melayani Jabodetabek, Cikarang, dan Karawang.",
   keywords: [
     "rental genset",
     "sewa genset",
-    "genset rental jakarta",
-    "rental generator",
+    "rental generator industri",
     "sewa generator set",
-    "genset rental bogor",
+    "rental genset bogor",
+    "rental genset jakarta",
     "rental genset 24 jam",
     "rental genset industri",
     "sewa genset cikarang",
@@ -244,7 +253,7 @@ export const seo = {
     "rental genset jabodetabek",
     "harlindojaya",
     "harga sewa genset",
-    "rental genset murah",
+    "penyedia genset profesional",
   ],
   gtmId: "GTM-PW59T7QP",
 };

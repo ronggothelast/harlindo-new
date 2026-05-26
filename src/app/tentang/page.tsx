@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   title: "Tentang Kami",
   description:
-    "HarlindoJaya adalah penyedia rental genset bersertifikasi SIO dengan pengalaman belasan tahun. Unit milik sendiri, tangan pertama, melayani Jabotabek 24/7.",
+    "HarlindoJaya adalah penyedia rental generator bersertifikasi SIO dengan pengalaman lebih dari satu dekade. Seluruh unit milik perusahaan, didukung tim teknisi siaga 24 jam untuk Jabodetabek.",
 };
 
 const iconMap: Record<string, any> = {
@@ -32,10 +32,10 @@ export default function TentangPage() {
         eyebrow="Tentang HarlindoJaya"
         title={
           <>
-            Power partner
+            Mitra power
             <br />
             <span className="text-amber italic font-light">
-              yang bisa diandalkan.
+              yang dapat diandalkan.
             </span>
           </>
         }
@@ -49,31 +49,31 @@ export default function TentangPage() {
             <div className="lg:col-span-5 space-y-6 lg:sticky lg:top-32">
               <Eyebrow>Filosofi Kami</Eyebrow>
               <h2 className="text-4xl lg:text-5xl font-bold leading-[1.05] tracking-tightest">
-                Pilihan terbaik
+                Mitra terbaik
                 <br />
                 <span className="text-amber italic font-light">
-                  untuk harga terbaik.
+                  dengan komitmen teruji.
                 </span>
               </h2>
             </div>
             <div className="lg:col-span-7 space-y-6 text-base lg:text-lg leading-relaxed text-fg-secondary">
               <p>
-                HarlindoJaya berdiri sebagai mitra power solutions yang
-                menjunjung tinggi prinsip kualitas dan transparansi. Setiap unit
-                yang kami tawarkan adalah milik sendiri — bukan reseller atau
-                broker — sehingga kami bisa memastikan kondisi unit prima dari
-                tangan pertama.
+                HarlindoJaya berkomitmen menjadi mitra power solutions yang
+                menjunjung kualitas, transparansi, dan profesionalisme. Setiap
+                unit yang kami operasikan merupakan aset perusahaan, bukan unit
+                pihak ketiga, sehingga kontrol kualitas dan kesiapan unit dapat
+                kami jamin secara langsung.
               </p>
               <p>
                 Dengan pengalaman {company.experience.toLowerCase()} di industri
-                rental dan service genset, tim teknisi kami menangani spektrum
-                kebutuhan power dari proyek konstruksi, event, hingga industri
-                manufaktur skala besar.
+                rental dan layanan teknis generator, tim kami menangani spektrum
+                kebutuhan power, mulai dari proyek konstruksi, kebutuhan event,
+                hingga industri manufaktur skala besar.
               </p>
               <p className="text-fg-primary font-medium border-l-2 border-amber pl-6 py-2">
-                Sertifikasi {company.certification} memastikan setiap unit
-                operasi kami mengikuti standar keselamatan dan profesionalisme
-                yang berlaku.
+                Sertifikasi {company.certification} memastikan setiap aspek
+                operasional kami mengikuti standar keselamatan dan
+                profesionalisme yang berlaku di industri.
               </p>
             </div>
           </div>
@@ -84,9 +84,9 @@ export default function TentangPage() {
       <section className="relative py-24 bg-bg-surface/30">
         <div className="mx-auto max-w-7xl px-6 lg:px-12">
           <div className="mb-16 space-y-6">
-            <Eyebrow>Mengapa Kami</Eyebrow>
+            <Eyebrow>Mengapa Memilih Kami</Eyebrow>
             <h2 className="text-4xl lg:text-6xl font-bold leading-[1.05] tracking-tightest max-w-3xl">
-              3 alasan utama klien
+              Tiga alasan utama klien
               <br />
               <span className="text-fg-secondary font-light italic">
                 memilih HarlindoJaya.
@@ -132,10 +132,10 @@ export default function TentangPage() {
             <div className="rounded-[calc(2rem-0.375rem)] bg-bg-card shadow-card-inset p-10 lg:p-16">
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-4">
                 {[
-                  { v: "20–2000", u: "kVA Range Lengkap" },
-                  { v: "24/7", u: "Operasional Penuh" },
+                  { v: "20–2000", u: "Cakupan kVA Lengkap" },
+                  { v: "24/7", u: "Dukungan Operasional" },
                   { v: company.experience, u: "Tahun Pengalaman" },
-                  { v: "1 hari", u: "Min. Rental (12 jam)" },
+                  { v: "1 Hari", u: "Sewa Minimum (12 Jam)" },
                 ].map((s) => (
                   <div
                     key={s.u}
@@ -160,12 +160,12 @@ export default function TentangPage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-12">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <Eyebrow>Lokasi & Service Area</Eyebrow>
+              <Eyebrow>Lokasi & Wilayah Layanan</Eyebrow>
               <h2 className="text-3xl lg:text-5xl font-bold tracking-tight leading-[1.05]">
                 Berbasis di Bogor,
                 <br />
                 <span className="text-amber italic font-light">
-                  menjangkau Jabotabek.
+                  melayani Jabodetabek.
                 </span>
               </h2>
 
@@ -194,7 +194,7 @@ export default function TentangPage() {
                   />
                   <div>
                     <div className="text-[10px] uppercase tracking-[0.25em] text-fg-muted mb-1">
-                      Service Coverage
+                      Cakupan Layanan
                     </div>
                     <div className="text-base text-fg-primary">
                       {contact.serviceArea.join(" · ")}
@@ -223,7 +223,7 @@ export default function TentangPage() {
                 {/* Telemetry-style location card */}
                 <div className="text-center space-y-4 p-8">
                   <div className="font-mono text-[10px] uppercase tracking-[0.25em] text-amber">
-                    ● HQ ACTIVE
+                    ● KANTOR PUSAT AKTIF
                   </div>
                   <div className="text-4xl lg:text-5xl font-bold tracking-tight">
                     {contact.address.city}

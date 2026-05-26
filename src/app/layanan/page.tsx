@@ -9,7 +9,7 @@ import { ArrowUpRight, CheckCircle, Lightning, Wrench, Gear, Toolbox } from "@ph
 export const metadata: Metadata = {
   title: "Layanan",
   description:
-    "4 layanan utama HarlindoJaya: Rental Genset, Perawatan & Perbaikan Mekanis, Overhaul, Instalasi & Commissioning. 24/7 Jabotabek.",
+    "Empat layanan utama HarlindoJaya: Rental Genset, Perawatan & Perbaikan Mekanis, Overhaul, dan Instalasi & Commissioning. Dukungan teknis 24 jam untuk Jabodetabek.",
 };
 
 const iconMap: Record<string, any> = {
@@ -33,12 +33,12 @@ export default function LayananPage() {
         eyebrow="Layanan Lengkap"
         title={
           <>
-            Power solutions
+            Solusi power
             <br />
-            <span className="text-amber italic font-light">end-to-end.</span>
+            <span className="text-amber italic font-light">terintegrasi.</span>
           </>
         }
-        description="Dari rental harian hingga overhaul mesin industri. Tangan pertama, unit milik sendiri, tim teknisi 24/7. Kami menangani seluruh siklus hidup genset Anda."
+        description="Spektrum layanan teknis lengkap, mulai dari rental harian hingga overhaul mesin industri. Setiap layanan ditangani oleh tim teknisi internal bersertifikat dengan kontrol kualitas terstandar."
       />
 
       {/* Services detail — alternating layout */}
@@ -84,7 +84,7 @@ export default function LayananPage() {
                       <Icon weight="light" size={28} className="text-amber" />
                     </div>
                     <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-fg-muted">
-                      Service 0{i + 1} / 0{services.length}
+                      Layanan 0{i + 1} / 0{services.length}
                     </span>
                   </div>
 
@@ -116,7 +116,7 @@ export default function LayananPage() {
 
                   <div className="pt-6">
                     <a
-                      href={whatsappLink(`Halo, saya tertarik dengan layanan ${service.name}.`)}
+                      href={whatsappLink(`Selamat siang, kami ingin meminta informasi lebih lanjut mengenai layanan ${service.name}.`)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="btn-amber"

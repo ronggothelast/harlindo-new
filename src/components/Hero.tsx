@@ -30,22 +30,23 @@ export function Hero() {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-12 grid lg:grid-cols-12 gap-12 items-center">
         {/* LEFT: Editorial copy */}
         <div className="lg:col-span-7 space-y-8">
-          <Eyebrow variant="amber">SIO Certified · Belasan Tahun</Eyebrow>
+          <Eyebrow variant="amber">Bersertifikasi SIO · Lebih dari Satu Dekade</Eyebrow>
 
           <h1
             id="hero-title"
             className="text-5xl sm:text-6xl lg:text-[5.5rem] xl:text-[6.5rem] font-bold leading-[0.95] tracking-tightest"
           >
-            Heavy Duty
+            Solusi Power
             <br />
-            Machine
+            Industri
             <br />
-            <span className="text-amber italic font-light">Rental.</span>
+            <span className="text-amber italic font-light">Profesional.</span>
           </h1>
 
           <p className="text-lg lg:text-xl text-fg-secondary max-w-xl leading-relaxed">
-            Genset 20kVA hingga 2000kVA. Barang milik sendiri, unit lengkap,
-            troubleshooting 24 jam. Pilihan terbaik untuk harga terbaik.
+            Penyedia rental dan layanan teknis Heavy Duty Generator dengan
+            kapasitas 20 kVA hingga 2000 kVA. Seluruh unit milik perusahaan,
+            tersertifikasi, dan didukung tim teknisi siaga 24 jam.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-4">
@@ -55,14 +56,14 @@ export function Hero() {
               rel="noopener noreferrer"
               className="btn-amber"
             >
-              <span className="pl-2">WhatsApp Sekarang</span>
+              <span className="pl-2">Konsultasi via WhatsApp</span>
               <span className="btn-icon-wrap">
                 <ArrowUpRight weight="light" size={16} />
               </span>
             </a>
 
-            <a href="#harga" className="btn-ghost">
-              <span className="pl-2">Lihat Harga</span>
+            <a href="/harga" className="btn-ghost">
+              <span className="pl-2">Lihat Daftar Harga</span>
               <span className="btn-icon-wrap">
                 <ArrowUpRight weight="light" size={16} />
               </span>
@@ -72,9 +73,9 @@ export function Hero() {
           {/* Tactical telemetry stats */}
           <div className="grid grid-cols-3 gap-6 pt-12 border-t border-line/50 max-w-xl">
             {[
-              { v: "20–2000", u: "kVA Range" },
-              { v: "24/7", u: "Operasional" },
-              { v: "Belasan", u: "Tahun" },
+              { v: "20–2000", u: "Cakupan kVA" },
+              { v: "24/7", u: "Dukungan Teknis" },
+              { v: "10+", u: "Tahun Pengalaman" },
             ].map((s) => (
               <div key={s.u} className="space-y-1">
                 <div className="font-mono text-xl lg:text-2xl text-fg-primary num-mono tracking-tight">
@@ -107,13 +108,13 @@ export function Hero() {
               />
               {/* Telemetry overlay */}
               <div className="absolute top-6 left-6 right-6 flex justify-between items-start font-mono text-[10px] uppercase tracking-[0.25em]">
-                <span className="text-amber">● LIVE</span>
+                <span className="text-amber">● AKTIF</span>
                 <span className="text-fg-muted">UNIT-001</span>
               </div>
               <div className="absolute bottom-6 left-6 right-6 font-mono text-[10px] uppercase tracking-[0.2em] text-fg-muted">
                 <div className="flex justify-between border-t border-line pt-3">
-                  <span>JABOTABEK</span>
-                  <span>ALL-IN BBM 12H</span>
+                  <span>JABODETABEK</span>
+                  <span>BBM 12 JAM TERMASUK</span>
                 </div>
               </div>
             </div>
@@ -128,7 +129,7 @@ export function Hero() {
                 </div>
                 <div>
                   <div className="text-[10px] uppercase tracking-[0.2em] text-fg-muted">
-                    Min. Rental
+                    Sewa Minimum
                   </div>
                   <div className="text-sm font-semibold">1 Hari (12 Jam)</div>
                 </div>

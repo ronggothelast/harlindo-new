@@ -20,15 +20,15 @@ export function Clients() {
               Dipercaya oleh
               <br />
               <span className="text-amber italic font-light">
-                perusahaan terkemuka.
+                korporasi terkemuka.
               </span>
             </h2>
           </div>
           <div className="lg:col-span-5 lg:pl-12">
             <p className="text-base lg:text-lg text-fg-secondary leading-relaxed">
-              Dari proyek konstruksi hingga industri farmasi, energi, dan
-              manufaktur. HarlindoJaya melayani kebutuhan power di berbagai
-              sektor.
+              Beragam sektor strategis, mulai dari konstruksi, farmasi, energi,
+              hingga manufaktur, telah mempercayakan kebutuhan power mereka
+              kepada HarlindoJaya.
             </p>
           </div>
         </div>

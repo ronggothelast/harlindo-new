@@ -11,22 +11,22 @@ export function Process() {
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         <div className="grid lg:grid-cols-12 gap-8 mb-20 items-end">
           <div className="lg:col-span-7 space-y-6">
-            <Eyebrow>Cara Kerja</Eyebrow>
+            <Eyebrow>Alur Kerja</Eyebrow>
             <h2
               id="process-title"
               className="text-4xl lg:text-6xl font-bold leading-[1.05] tracking-tightest"
             >
-              5 langkah cepat,
+              Lima tahap terstruktur,
               <br />
               <span className="text-fg-secondary font-light italic">
-                unit meluncur.
+                hingga unit beroperasi.
               </span>
             </h2>
           </div>
           <div className="lg:col-span-5 lg:pl-12">
             <p className="text-base lg:text-lg text-fg-secondary leading-relaxed">
-              Proses sederhana, transparan, dan cepat. Dari WhatsApp pertama
-              hingga unit beroperasi di lokasi Anda.
+              Proses kerja yang transparan dan terdokumentasi, mulai dari
+              permintaan awal hingga commissioning unit di lokasi proyek Anda.
             </p>
           </div>
         </div>
@@ -42,7 +42,7 @@ export function Process() {
                   {step.step}
                 </span>
                 <span className="text-[10px] uppercase tracking-[0.25em] text-fg-muted">
-                  {i === howItWorks.length - 1 ? "Done" : "Step"}
+                  {i === howItWorks.length - 1 ? "Selesai" : "Tahap"}
                 </span>
               </div>
               <h3 className="text-lg lg:text-xl font-semibold tracking-tight leading-tight mt-4">

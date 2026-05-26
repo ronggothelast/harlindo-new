@@ -6,7 +6,7 @@ import { FAQ } from "@/components/FAQ";
 export const metadata: Metadata = {
   title: "FAQ",
   description:
-    "Pertanyaan yang sering diajukan tentang rental, service, dan operasional genset HarlindoJaya. Jawaban transparan untuk semua kebutuhan Anda.",
+    "Pertanyaan yang sering diajukan tentang rental, layanan teknis, dan operasional generator HarlindoJaya. Jawaban transparan untuk berbagai kebutuhan Anda.",
 };
 
 export default function FaqPage() {
@@ -23,7 +23,7 @@ export default function FaqPage() {
             </span>
           </>
         }
-        description="Tidak menemukan jawaban? Tim kami siap respon 24/7 via WhatsApp untuk konsultasi langsung."
+        description="Tidak menemukan jawaban yang Anda cari? Tim kami siap membantu melalui konsultasi langsung di kanal WhatsApp."
       />
       <FAQ />
     </PageShell>

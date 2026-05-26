@@ -71,7 +71,7 @@ export function Footer() {
                 <span className="text-amber font-mono">{contact.hours}</span>
               </div>
               <div className="flex justify-between border-b border-line/50 pb-2">
-                <span>Service Area</span>
+                <span>Wilayah Layanan</span>
                 <span className="font-mono text-xs">
                   {contact.serviceArea.join(", ")}
                 </span>
@@ -96,8 +96,7 @@ export function Footer() {
 
         <div className="mt-16 pt-8 border-t border-line flex flex-col sm:flex-row justify-between gap-4 text-xs text-fg-muted">
           <span>
-            © {new Date().getFullYear()} {company.legal} {company.name}. All rights
-            reserved.
+            © {new Date().getFullYear()} {company.legal} {company.name}. Hak cipta dilindungi.
           </span>
           <span className="font-mono uppercase tracking-[0.2em]">
             {company.tagline}
