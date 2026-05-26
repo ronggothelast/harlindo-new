@@ -257,3 +257,169 @@
     text-wrap: pretty;
   }
 }
+
+/* ============================================ */
+/* TASTE THEME — Stitch Design Taste            */
+/* Gallery-airy light, Canvas White + Amber     */
+/* ============================================ */
+.taste-theme {
+  --canvas-white: #F9FAFB;
+  --pure-surface: #FFFFFF;
+  --charcoal-ink: #18181B;
+  --steel-secondary: #71717A;
+  --muted-slate: #94A3B8;
+  --whisper-border: rgba(226, 232, 240, 0.5);
+  --whisper-border-strong: rgba(226, 232, 240, 0.9);
+  --diffused-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.05);
+  --card-shadow: 0 32px 64px -24px rgba(15, 23, 42, 0.08);
+  --taste-amber: #B45309;
+  --taste-amber-hover: #92400E;
+  --taste-amber-tint: rgba(180, 83, 9, 0.06);
+  --taste-spring: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.taste-theme {
+  background: var(--canvas-white);
+  color: var(--charcoal-ink);
+  font-feature-settings: "ss01", "ss02", "cv11";
+}
+
+.taste-theme ::selection {
+  background: var(--charcoal-ink);
+  color: var(--canvas-white);
+}
+
+.taste-display {
+  font-family: var(--font-geist-sans), Geist, "Cabinet Grotesk", "Satoshi", system-ui, sans-serif;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
+  font-weight: 700;
+  color: var(--charcoal-ink);
+}
+
+.taste-body {
+  color: var(--steel-secondary);
+  line-height: 1.65;
+  max-width: 65ch;
+}
+
+.taste-eyebrow {
+  font-family: var(--font-geist-mono), "Geist Mono", "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--steel-secondary);
+  font-weight: 500;
+}
+
+.taste-mono {
+  font-family: var(--font-geist-mono), "Geist Mono", "JetBrains Mono", ui-monospace, monospace;
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+}
+
+/* Buttons — flat, tactile, no glow */
+.taste-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.875rem 1.5rem;
+  border-radius: 999px;
+  background: var(--charcoal-ink);
+  color: var(--canvas-white);
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  transition: transform 240ms var(--taste-spring), background-color 240ms ease;
+  border: none;
+  cursor: pointer;
+}
+.taste-btn-primary:hover {
+  background: #27272A;
+}
+.taste-btn-primary:active {
+  transform: translateY(-1px) scale(0.98);
+}
+
+.taste-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.875rem 1.5rem;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--charcoal-ink);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--whisper-border-strong);
+  transition: transform 240ms var(--taste-spring), background-color 240ms ease, border-color 240ms ease;
+  cursor: pointer;
+}
+.taste-btn-secondary:hover {
+  background: var(--canvas-white);
+  border-color: var(--charcoal-ink);
+}
+.taste-btn-secondary:active {
+  transform: translateY(-1px) scale(0.98);
+}
+
+/* Card — generously rounded, whisper border, diffused shadow */
+.taste-card {
+  background: var(--pure-surface);
+  border: 1px solid var(--whisper-border);
+  border-radius: 2.5rem;
+  box-shadow: var(--diffused-shadow);
+  padding: 2rem;
+  transition: transform 320ms var(--taste-spring), box-shadow 320ms ease;
+}
+.taste-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow);
+}
+
+/* Border-top divider for high-density rows (instead of cards) */
+.taste-row-divider {
+  border-top: 1px solid var(--whisper-border-strong);
+  padding: 1.5rem 0;
+}
+
+/* Subtle perpetual float micro-animation for accent dots */
+@keyframes taste-pulse {
+  0%, 100% { opacity: 0.5; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.15); }
+}
+.taste-pulse-dot {
+  animation: taste-pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes taste-fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.taste-reveal {
+  animation: taste-fade-up 720ms var(--taste-spring) both;
+}
+.taste-reveal-delay-1 { animation-delay: 80ms; }
+.taste-reveal-delay-2 { animation-delay: 160ms; }
+.taste-reveal-delay-3 { animation-delay: 240ms; }
+.taste-reveal-delay-4 { animation-delay: 320ms; }
+.taste-reveal-delay-5 { animation-delay: 400ms; }
+
+/* Inline-image-typography ring — small rounded photo punctuation between words */
+.taste-inline-img {
+  display: inline-flex;
+  vertical-align: middle;
+  width: 0.95em;
+  height: 0.95em;
+  border-radius: 999px;
+  overflow: hidden;
+  margin: 0 0.18em;
+  background: var(--whisper-border);
+  border: 1px solid var(--whisper-border-strong);
+  box-shadow: 0 6px 14px -8px rgba(15, 23, 42, 0.18);
+}
+.taste-inline-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
