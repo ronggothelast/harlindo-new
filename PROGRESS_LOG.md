@@ -4,31 +4,28 @@
 
 ---
 
-## ✅ CURRENT STATE (2026-05-26 ~19:05 UTC)
+## ✅ CURRENT STATE (2026-05-26 ~19:15 UTC)
 
 ### 🟢 LIVE PREVIEW
 - **GitHub Pages**: https://ronggothelast.github.io/harlindo-new/
 - **Status**: HTTP 200, FULLY DEPLOYED ✅
-- **Build**: Static export 17.5 kB main bundle
-- **Pages**: 1 (homepage) — multi-page routes pending
+- **Build**: Static export, 7 routes
+- **All pages**: HTTP 200 verified
 
 ### 📊 What's Built
-- ✅ Hero (editorial split, telemetry overlay, ambient glow)
-- ✅ Services (4 services, asymmetric bento)
-- ✅ Pricing (15 packages bento + special capacity card)
-- ✅ Process (5 steps how it works)
-- ✅ Clients (6 enterprise logos)
-- ✅ FAQ (interactive accordion)
-- ✅ CTA (WhatsApp-prominent)
-- ✅ Footer (full nav + contact)
-- ✅ Header (sticky glass, mobile menu)
+- ✅ `/` — Homepage (Hero, Services, Pricing, Process, Clients, FAQ, CTA, Footer)
+- ✅ `/layanan` — Services detail with alternating image-text layout
+- ✅ `/harga` — Pricing standalone with 15 packages
+- ✅ `/tentang` — Company filosofi + why us + telemetry stats + location
+- ✅ `/proyek` — 6 client portfolio (Pfizer, Halliburton, YKK, etc.) z-axis cascade
+- ✅ `/faq` — FAQ accordion standalone
+- ✅ `/kontak` — 4 contact channels + office info + embedded Google Maps
 
-### 🚧 NOT YET BUILT
-- Multi-page routes: `/layanan`, `/harga`, `/proyek`, `/tentang`, `/faq`, `/kontak`
-- Project portfolio gallery
-- Blog/news section
-- About page with timeline
-- Mobile testing (only desktop verified)
+### 🚧 NOT YET DONE
+- Mobile QA detail (only desktop verified — homepage looks good, sub-pages not tested mobile)
+- Framer Motion scroll animations (installed, not wired)
+- Push to FTP harlindojaya.com (user said preview-first)
+- Performance audit (Lighthouse)
 
 ---
 
