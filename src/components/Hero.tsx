@@ -30,23 +30,23 @@ export function Hero() {
       <div className="relative mx-auto max-w-7xl px-6 lg:px-12 grid lg:grid-cols-12 gap-12 items-center">
         {/* LEFT: Editorial copy */}
         <div className="lg:col-span-7 space-y-8">
-          <Eyebrow variant="amber">Bersertifikasi SIO · Lebih dari Satu Dekade</Eyebrow>
+          <Eyebrow variant="amber">#01. Rental Genset & Layanan Pendukung</Eyebrow>
 
           <h1
             id="hero-title"
             className="text-5xl sm:text-6xl lg:text-[5.5rem] xl:text-[6.5rem] font-bold leading-[0.95] tracking-tightest"
           >
-            Solusi Power
+            Siap menjadi
             <br />
-            Industri
+            mitra terbaik
             <br />
-            <span className="text-amber italic font-light">Profesional.</span>
+            <span className="text-amber italic font-light">anda!</span>
           </h1>
 
           <p className="text-lg lg:text-xl text-fg-secondary max-w-xl leading-relaxed">
-            Penyedia rental dan layanan teknis Heavy Duty Generator dengan
-            kapasitas 20 kVA hingga 2000 kVA. Seluruh unit milik perusahaan,
-            tersertifikasi, dan didukung tim teknisi siaga 24 jam.
+            Instalasi, Jual Beli, dan Service Genset, Power House, Overhaul,
+            Paralelisasi, Sistem Peringatan Otomatis & Perangkat Pemutus,
+            serta Instalasi Industri.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 pt-4">
@@ -56,14 +56,14 @@ export function Hero() {
               rel="noopener noreferrer"
               className="btn-amber"
             >
-              <span className="pl-2">Konsultasi via WhatsApp</span>
+              <span className="pl-2">Dapatkan Penawaran Sekarang</span>
               <span className="btn-icon-wrap">
                 <ArrowUpRight weight="light" size={16} />
               </span>
             </a>
 
-            <a href="/harga" className="btn-ghost">
-              <span className="pl-2">Lihat Daftar Harga</span>
+            <a href="/layanan" className="btn-ghost">
+              <span className="pl-2">Pelajari Lebih Lanjut</span>
               <span className="btn-icon-wrap">
                 <ArrowUpRight weight="light" size={16} />
               </span>
@@ -73,9 +73,9 @@ export function Hero() {
           {/* Tactical telemetry stats */}
           <div className="grid grid-cols-3 gap-6 pt-12 border-t border-line/50 max-w-xl">
             {[
-              { v: "20–2000", u: "Cakupan kVA" },
-              { v: "24/7", u: "Dukungan Teknis" },
+              { v: "5.0", u: "Rating Klien" },
               { v: "10+", u: "Tahun Pengalaman" },
+              { v: "24/7", u: "Layanan & Aftersales" },
             ].map((s) => (
               <div key={s.u} className="space-y-1">
                 <div className="font-mono text-xl lg:text-2xl text-fg-primary num-mono tracking-tight">

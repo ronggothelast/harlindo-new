@@ -62,15 +62,15 @@ export default function KontakPage() {
   return (
     <PageShell showCta={false}>
       <PageHero
-        eyebrow="Hubungi Kami"
+        eyebrow="Yuk Lebih Dekat dengan Kami!"
         title={
           <>
-            Tim siaga
+            We'd Love to
             <br />
-            <span className="text-amber italic font-light">untuk Anda.</span>
+            <span className="text-amber italic font-light">Hear from You.</span>
           </>
         }
-        description="Tim kami siap memberikan respons cepat untuk konsultasi, pemesanan, dan kebutuhan dukungan teknis. Silakan pilih kanal komunikasi yang paling sesuai."
+        description="Hubungi kami via telepon, email, atau formulir kontak online. Tim kami akan merespons dengan cepat untuk memastikan Anda mendapat dukungan yang dibutuhkan."
       />
 
       {/* Contact channels */}

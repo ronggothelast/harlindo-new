@@ -17,9 +17,9 @@ export function Pricing() {
               id="pricing-title"
               className="text-4xl lg:text-6xl font-bold leading-[1.05] tracking-tightest"
             >
-              Harga transparan.
+              Pilih kapasitas
               <br />
-              <span className="text-amber italic font-light">Termasuk BBM 12 jam.</span>
+              <span className="text-amber italic font-light">sesuai kebutuhan.</span>
             </h2>
           </div>
           <div className="lg:col-span-5 lg:pl-12 space-y-3">
@@ -71,41 +71,75 @@ export function Pricing() {
                 </div>
               </div>
 
-              <div className="pt-4 border-t border-line/50">
-                <div className="text-[10px] uppercase tracking-[0.2em] text-fg-muted mb-1">
-                  Per Hari
+              <div className="pt-4 border-t border-line/50 space-y-3">
+                <div>
+                  <div className="text-[10px] uppercase tracking-[0.2em] text-fg-muted mb-1">
+                    Per Hari
+                  </div>
+                  <div className="text-base lg:text-lg font-semibold text-amber">
+                    Rp. {p.price}jt
+                  </div>
                 </div>
-                <div className="text-base lg:text-lg font-semibold text-amber">
-                  Rp. {p.price}jt
-                </div>
+                <ul className="space-y-1.5 pt-3 border-t border-line/30">
+                  <li className="text-[11px] text-fg-secondary flex items-center gap-2">
+                    <span className="h-1 w-1 rounded-full bg-amber/60 flex-shrink-0" />
+                    {p.hours}
+                  </li>
+                  <li className="text-[11px] text-fg-secondary flex items-center gap-2">
+                    <span className="h-1 w-1 rounded-full bg-amber/60 flex-shrink-0" />
+                    {p.cable}
+                  </li>
+                  <li className="text-[11px] text-fg-secondary flex items-center gap-2">
+                    <span className="h-1 w-1 rounded-full bg-amber/60 flex-shrink-0" />
+                    Bebas Repot Transportasi
+                  </li>
+                </ul>
               </div>
             </div>
           ))}
 
           {/* Special capacity card */}
           <div className="group rounded-2xl border border-amber/30 bg-gradient-to-br from-bg-elevated to-bg-card p-6 lg:p-8 col-span-2 md:col-span-3 lg:col-span-4 xl:col-span-5">
-            <div className="grid lg:grid-cols-2 gap-6 items-center">
+            <div className="grid lg:grid-cols-2 gap-6 items-start">
               <div>
                 <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-amber mb-3 inline-block">
-                  Kapasitas Khusus
+                  #02. Kapasitas Khusus
                 </span>
                 <h3 className="text-2xl lg:text-3xl font-bold tracking-tight mb-2">
                   {specialCapacity.range}
                 </h3>
-                <p className="text-sm text-fg-secondary leading-relaxed">
+                <p className="text-sm text-fg-secondary leading-relaxed mb-4">
                   {specialCapacity.description}
                 </p>
+                <div className="text-[10px] uppercase tracking-[0.25em] text-amber font-mono">
+                  {specialCapacity.price}
+                </div>
               </div>
-              <div className="flex lg:justify-end">
+              <div className="space-y-4">
+                <ul className="space-y-2">
+                  {specialCapacity.features.map((f) => (
+                    <li
+                      key={f}
+                      className="text-sm text-fg-primary flex items-start gap-3"
+                    >
+                      <CheckCircle
+                        weight="light"
+                        size={16}
+                        className="text-amber flex-shrink-0 mt-0.5"
+                      />
+                      {f}
+                    </li>
+                  ))}
+                </ul>
                 <a
                   href={whatsappLink(
-                    "Selamat siang, kami memerlukan konsultasi untuk genset kapasitas besar (750–2000 kVA) untuk kebutuhan industri kami."
+                    "Halo HarlindoJaya, kami membutuhkan konsultasi untuk genset kapasitas besar (750–2000 kVA). Mohon penawaran khususnya."
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-amber"
                 >
-                  <span className="pl-2">Permintaan Penawaran Khusus</span>
+                  <span className="pl-2">Hubungi Tim Kami</span>
                   <span className="btn-icon-wrap">
                     <ArrowUpRight weight="light" size={16} />
                   </span>

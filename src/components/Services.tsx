@@ -25,18 +25,20 @@ export function Services() {
               id="services-title"
               className="text-4xl lg:text-6xl font-bold leading-[1.05] tracking-tightest"
             >
-              Solusi power terintegrasi.
+              Berbagai Pelayanan
               <br />
               <span className="text-fg-secondary font-light italic">
-                Dari hulu hingga hilir.
+                Genset di HarlindoJaya.
               </span>
             </h2>
           </div>
           <div className="lg:col-span-5 lg:pl-12">
             <p className="text-base lg:text-lg text-fg-secondary leading-relaxed">
-              Spektrum layanan lengkap mulai dari rental harian hingga overhaul
-              mesin industri, didukung tim teknisi internal dengan respons 24
-              jam.
+              HarlindoJaya menyediakan berbagai layanan profesional untuk
+              memenuhi kebutuhan Anda dalam bidang engine works dan body works,
+              serta layanan perawatan dan pemeliharaan genset. Kami juga
+              menawarkan layanan pendukung, termasuk penyewaan genset,
+              sinkronisasi dan instalasi panel, serta layanan teknis lainnya.
             </p>
           </div>
         </div>

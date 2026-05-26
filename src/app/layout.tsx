@@ -6,20 +6,22 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://harlindojaya.com"),
   title: {
-    default: "HarlindoJaya — Solusi Rental Generator Industri 20–2000 kVA",
+    default: "Instalasi, Jual Beli, dan Service Genset & Industri | HarlindoJaya",
     template: "%s | HarlindoJaya",
   },
   description:
-    "Penyedia rental, penjualan, dan layanan teknis generator dengan kapasitas 20 kVA hingga 2000 kVA. Mencakup powerhouse, overhaul, dan paralelisasi. Dukungan teknis 24 jam untuk Jabodetabek, Cikarang, dan Karawang.",
+    "HarlindoJaya — Instalasi, Jual Beli, dan Service Genset, Power House, Overhaul, Paralelisasi, Sistem Peringatan Otomatis & Perangkat Pemutus, serta Instalasi Industri. Rental genset 20kVA–2000kVA, layanan 24 jam Jabodetabek.",
   keywords: [
     "rental genset",
     "jual genset",
-    "layanan teknis genset",
+    "service genset",
     "overhaul genset",
-    "powerhouse",
+    "power house",
+    "paralelisasi genset",
     "genset jabodetabek",
     "harlindojaya",
-    "generator set industri",
+    "generator set",
+    "instalasi industri",
   ],
   authors: [{ name: "HarlindoJaya" }],
   openGraph: {
@@ -27,9 +29,9 @@ export const metadata: Metadata = {
     locale: "id_ID",
     url: "https://harlindojaya.com",
     siteName: "HarlindoJaya",
-    title: "HarlindoJaya — Solusi Rental Generator Profesional",
+    title: "HarlindoJaya — Siap menjadi mitra terbaik anda!",
     description:
-      "Solusi power profesional untuk industri Indonesia. Generator 20 kVA hingga 2000 kVA dengan dukungan teknis 24 jam.",
+      "Instalasi, Jual Beli, dan Service Genset, Power House, Overhaul, Paralelisasi, serta Instalasi Industri. Layanan 24 jam Jabodetabek.",
     images: [
       {
         url: "/images/fav-logo1.png",
@@ -41,9 +43,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "HarlindoJaya — Solusi Rental Generator Profesional",
+    title: "HarlindoJaya — Siap menjadi mitra terbaik anda!",
     description:
-      "Generator 20 kVA hingga 2000 kVA dengan dukungan teknis 24 jam untuk Jabodetabek.",
+      "Rental & Service Genset 20kVA–2000kVA. Layanan 24 jam Jabodetabek.",
   },
   robots: { index: true, follow: true },
   icons: {

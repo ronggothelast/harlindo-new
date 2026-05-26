@@ -21,21 +21,22 @@ export function CTA() {
         <div className="rounded-[2rem] bg-bg-surface/60 border border-line p-1.5 shadow-card-deep">
           <div className="rounded-[calc(2rem-0.375rem)] bg-bg-card shadow-card-inset p-10 lg:p-16 xl:p-20 text-center space-y-8">
             <Eyebrow variant="amber" className="inline-flex">
-              Tim Siaga 24 Jam
+              Layanan 24 Jam
             </Eyebrow>
 
             <h2
               id="cta-title"
               className="text-4xl lg:text-6xl xl:text-7xl font-bold leading-[1.05] tracking-tightest max-w-4xl mx-auto"
             >
-              Membutuhkan solusi
-              <br className="hidden lg:block" /> power segera?
+              Butuh Daya
+              <br className="hidden lg:block" /> Segera?
             </h2>
 
             <p className="text-lg lg:text-xl text-fg-secondary max-w-2xl mx-auto leading-relaxed">
-              Hubungi tim kami melalui WhatsApp untuk konsultasi dan penawaran
-              terkonfigurasi sesuai kebutuhan proyek Anda. Kami merespons setiap
-              permintaan dengan cepat dan profesional.
+              Kami menyediakan layanan rental Genset yang beroperasi 24 jam
+              dengan respons cepat, siap melayani panggilan kapan saja. Baik
+              untuk kebutuhan mendesak, proyek harian, bulanan, mingguan, maupun
+              acara event.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6">
@@ -45,7 +46,7 @@ export function CTA() {
                 rel="noopener noreferrer"
                 className="btn-amber"
               >
-                <span className="pl-2">Hubungi via WhatsApp</span>
+                <span className="pl-2">Hubungi Kami 24 Jam</span>
                 <span className="btn-icon-wrap">
                   <WhatsappLogo weight="bold" size={16} />
                 </span>

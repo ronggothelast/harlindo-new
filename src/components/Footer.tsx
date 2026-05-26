@@ -96,10 +96,10 @@ export function Footer() {
 
         <div className="mt-16 pt-8 border-t border-line flex flex-col sm:flex-row justify-between gap-4 text-xs text-fg-muted">
           <span>
-            © {new Date().getFullYear()} {company.legal} {company.name}. Hak cipta dilindungi.
+            © {new Date().getFullYear()} {company.legal} {company.name}. All Rights Reserved.
           </span>
           <span className="font-mono uppercase tracking-[0.2em]">
-            {company.tagline}
+            Siap menjadi mitra terbaik anda!
           </span>
         </div>
       </div>

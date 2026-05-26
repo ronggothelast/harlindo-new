@@ -9,7 +9,7 @@ import { Buildings, MapPin } from "@phosphor-icons/react/dist/ssr";
 export const metadata: Metadata = {
   title: "Proyek & Klien",
   description:
-    "Portofolio klien dan proyek HarlindoJaya, mulai dari sektor konstruksi, farmasi (Pfizer), energi (Halliburton), manufaktur (YKK), hingga pengembang properti.",
+    "Beberapa pekerjaan yang telah HarlindoJaya selesaikan. Proyek di Halliburton (oil & gas), Pfizer (farmasi), YKK (manufaktur), Prima Energi Bawean (offshore), Gilgal Center, dan PT HAN Konstruksi.",
 };
 
 const projectImages = [
@@ -25,17 +25,17 @@ export default function ProyekPage() {
   return (
     <PageShell>
       <PageHero
-        eyebrow="Portofolio Klien"
+        eyebrow="Lihat Kami di Bekerja"
         title={
           <>
-            Dipercaya
+            Beberapa pekerjaan
             <br />
             <span className="text-amber italic font-light">
-              korporasi terkemuka.
+              yang telah kami selesaikan.
             </span>
           </>
         }
-        description="Beragam sektor strategis, mulai dari konstruksi, farmasi, energi, hingga manufaktur, telah mempercayakan kebutuhan power mereka kepada HarlindoJaya."
+        description="Portofolio proyek kami mencerminkan pengalaman dan presisi yang kami terapkan di setiap pekerjaan, mulai dari oil & gas, farmasi, manufaktur, hingga acara keagamaan dan konstruksi."
       />
 
       {/* Z-axis cascade portfolio */}
@@ -98,23 +98,21 @@ export default function ProyekPage() {
                     </span>
                   </div>
 
+                  <p className="text-base text-fg-secondary leading-relaxed">
+                    {client.project}
+                  </p>
+
                   <div className="pt-6 border-t border-line/50 space-y-3">
                     <div className="flex justify-between text-sm">
                       <span className="text-fg-muted">Sektor</span>
                       <span className="text-fg-primary font-medium">
-                        {getSector(client.name)}
-                      </span>
-                    </div>
-                    <div className="flex justify-between text-sm">
-                      <span className="text-fg-muted">Lingkup Layanan</span>
-                      <span className="text-fg-primary font-medium">
-                        Rental & Servis Teknis
+                        {client.sector}
                       </span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-fg-muted">Status</span>
                       <span className="text-amber font-medium">
-                        ● Mitra Tepercaya
+                        ● Selesai
                       </span>
                     </div>
                   </div>
@@ -126,14 +124,4 @@ export default function ProyekPage() {
       </section>
     </PageShell>
   );
-}
-
-function getSector(name: string): string {
-  if (/Pfizer/i.test(name)) return "Farmasi";
-  if (/Halliburton/i.test(name)) return "Energi";
-  if (/YKK/i.test(name)) return "Manufaktur";
-  if (/KONSTRUKSI/i.test(name)) return "Konstruksi";
-  if (/Energi/i.test(name)) return "Energi";
-  if (/Center|PIK/i.test(name)) return "Properti";
-  return "Industri";
 }

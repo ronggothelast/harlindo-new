@@ -11,22 +11,23 @@ export function Process() {
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         <div className="grid lg:grid-cols-12 gap-8 mb-20 items-end">
           <div className="lg:col-span-7 space-y-6">
-            <Eyebrow>Alur Kerja</Eyebrow>
+            <Eyebrow>Cara Kerja</Eyebrow>
             <h2
               id="process-title"
               className="text-4xl lg:text-6xl font-bold leading-[1.05] tracking-tightest"
             >
-              Lima tahap terstruktur,
+              Prosedur pemesanan
               <br />
               <span className="text-fg-secondary font-light italic">
-                hingga unit beroperasi.
+                yang sederhana.
               </span>
             </h2>
           </div>
           <div className="lg:col-span-5 lg:pl-12">
             <p className="text-base lg:text-lg text-fg-secondary leading-relaxed">
-              Proses kerja yang transparan dan terdokumentasi, mulai dari
-              permintaan awal hingga commissioning unit di lokasi proyek Anda.
+              Untuk memesan genset, Anda dapat menghubungi kami melalui telepon,
+              email, atau langsung di kantor. Kami akan memberikan estimasi
+              biaya dan rincian syarat pembayaran.
             </p>
           </div>
         </div>

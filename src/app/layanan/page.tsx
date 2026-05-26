@@ -33,12 +33,12 @@ export default function LayananPage() {
         eyebrow="Layanan Lengkap"
         title={
           <>
-            Solusi power
+            Berbagai Pelayanan Genset
             <br />
-            <span className="text-amber italic font-light">terintegrasi.</span>
+            <span className="text-amber italic font-light">di HarlindoJaya.</span>
           </>
         }
-        description="Spektrum layanan teknis lengkap, mulai dari rental harian hingga overhaul mesin industri. Setiap layanan ditangani oleh tim teknisi internal bersertifikat dengan kontrol kualitas terstandar."
+        description="HarlindoJaya menyediakan berbagai layanan profesional untuk memenuhi kebutuhan Anda dalam bidang engine works dan body works, serta layanan perawatan dan pemeliharaan genset. Kami juga menawarkan layanan pendukung, termasuk penyewaan genset, sinkronisasi dan instalasi panel, serta layanan teknis lainnya."
       />
 
       {/* Services detail — alternating layout */}

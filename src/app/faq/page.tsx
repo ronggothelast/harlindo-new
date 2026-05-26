@@ -19,11 +19,11 @@ export default function FaqPage() {
             Pertanyaan
             <br />
             <span className="text-amber italic font-light">
-              yang sering diajukan.
+              yang sering ditanyakan.
             </span>
           </>
         }
-        description="Tidak menemukan jawaban yang Anda cari? Tim kami siap membantu melalui konsultasi langsung di kanal WhatsApp."
+        description="Selamat datang di bagian FAQ kami, di mana kami menjawab pertanyaan dan kekhawatiran paling umum seputar layanan rental dan perawatan genset kami."
       />
       <FAQ />
     </PageShell>

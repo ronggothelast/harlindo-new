@@ -29,13 +29,13 @@ export default function TentangPage() {
   return (
     <PageShell>
       <PageHero
-        eyebrow="Tentang HarlindoJaya"
+        eyebrow="About Us"
         title={
           <>
-            Mitra power
+            Kenapa harus
             <br />
             <span className="text-amber italic font-light">
-              yang dapat diandalkan.
+              HarlindoJaya?
             </span>
           </>
         }
@@ -47,33 +47,33 @@ export default function TentangPage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-12">
           <div className="grid lg:grid-cols-12 gap-12 items-start">
             <div className="lg:col-span-5 space-y-6 lg:sticky lg:top-32">
-              <Eyebrow>Filosofi Kami</Eyebrow>
+              <Eyebrow>Tentang Kami</Eyebrow>
               <h2 className="text-4xl lg:text-5xl font-bold leading-[1.05] tracking-tightest">
-                Mitra terbaik
+                Menjadi Pilihan Terbaik
                 <br />
                 <span className="text-amber italic font-light">
-                  dengan komitmen teruji.
+                  dalam Layanan Berkualitas.
                 </span>
               </h2>
             </div>
             <div className="lg:col-span-7 space-y-6 text-base lg:text-lg leading-relaxed text-fg-secondary">
               <p>
-                HarlindoJaya berkomitmen menjadi mitra power solutions yang
-                menjunjung kualitas, transparansi, dan profesionalisme. Setiap
-                unit yang kami operasikan merupakan aset perusahaan, bukan unit
-                pihak ketiga, sehingga kontrol kualitas dan kesiapan unit dapat
-                kami jamin secara langsung.
+                Kami berpengalaman dalam bidang genset lebih dari 10 tahun,
+                siap memberikan Anda berbagai layanan, mulai dari Rental,
+                Syncronizing, Jual Beli, serta Overhaul mesin atau Bodyworks.
               </p>
               <p>
-                Dengan pengalaman {company.experience.toLowerCase()} di industri
-                rental dan layanan teknis generator, tim kami menangani spektrum
-                kebutuhan power, mulai dari proyek konstruksi, kebutuhan event,
-                hingga industri manufaktur skala besar.
+                HarlindoJaya menyediakan berbagai layanan profesional untuk
+                memenuhi kebutuhan Anda dalam bidang engine works dan body
+                works, serta layanan perawatan dan pemeliharaan genset. Kami
+                juga menawarkan berbagai layanan pendukung, termasuk penyewaan
+                genset, sinkronisasi dan instalasi panel, serta layanan teknis
+                lainnya.
               </p>
               <p className="text-fg-primary font-medium border-l-2 border-amber pl-6 py-2">
-                Sertifikasi {company.certification} memastikan setiap aspek
-                operasional kami mengikuti standar keselamatan dan
-                profesionalisme yang berlaku di industri.
+                Tim Kami Siap Membantu Anda. Layanan 50Hz–60Hz | 220V–480V 3
+                Phase. Layanan 24 Jam serta aftersales terbaik. Terlengkap dan
+                terpercaya selama belasan tahun.
               </p>
             </div>
           </div>
