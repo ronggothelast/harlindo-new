@@ -1,0 +1,29 @@
+{
+  "name": "harlindo-new",
+  "version": "1.0.0",
+  "description": "HarlindoJaya - Modern Website for Generator Set Solutions",
+  "keywords": [
+    "genset",
+    "generator",
+    "rental",
+    "service",
+    "overhaul",
+    "installation",
+    "power-solutions",
+    "indonesia"
+  ],
+  "author": "HarlindoJaya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronggothelast/harlindo-new.git"
+  },
+  "homepage": "https://harlindojaya.com",
+  "scripts": {
+    "dev": "echo 'Development server not configured yet'",
+    "build": "echo 'Build script not configured yet'",
+    "start": "echo 'Start script not configured yet'"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

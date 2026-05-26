@@ -1,0 +1,416 @@
+{
+  "company_name": "HarlindoJaya",
+  "tagline": "Siap menjadi mitra terbaik anda!",
+  "description": "Kami berpengalaman dalam bidang genset lebih dari 10 Tahun siap memberikan anda berbagai layanan, mulai dari Rental, Syncronizing, Jual Beli, serta Overhaul mesin atau Bodyworks",
+  "contact": {
+    "phone": "+62 81281104105",
+    "whatsapp": "6281281104105",
+    "email": "contact@harlindojaya.com",
+    "address": {
+      "street": "Jl Raya Klapanunggal",
+      "area": "Cikahuripan, Klapanunggal",
+      "city": "Kabupaten Bogor",
+      "province": "Jawa Barat"
+    },
+    "hours": "Senin - Jum'at 8:00 Am - 5:00 Pm"
+  },
+  "social_media": {
+    "instagram": "https://www.instagram.com/HarlindoJaya/",
+    "facebook": "#",
+    "linkedin": "#",
+    "pinterest": "#"
+  },
+  "services": [
+    {
+      "name": "Rental Genset",
+      "description": "Penyewaan genset berbagai kapasitas dari 20kVA hingga 2000kVA",
+      "features": [
+        "All in BBM 12 jam",
+        "Operator berpengalaman",
+        "Maintenance selama sewa",
+        "24/7 support"
+      ],
+      "icon": "service-icon1.svg"
+    },
+    {
+      "name": "Perawatan dan Perbaikan Mekanis",
+      "description": "Layanan maintenance dan repair mekanis genset profesional",
+      "features": [
+        "Preventive maintenance",
+        "Corrective maintenance",
+        "Spare parts original",
+        "Teknisi bersertifikat"
+      ],
+      "icon": "service-icon2.svg"
+    },
+    {
+      "name": "Overhaul",
+      "description": "Overhaul menyeluruh mesin genset untuk performa optimal",
+      "features": [
+        "Engine overhaul",
+        "Generator overhaul",
+        "Control system upgrade",
+        "Performance testing"
+      ],
+      "icon": "service-icon3.svg"
+    },
+    {
+      "name": "Instalasi & Commissioning",
+      "description": "Instalasi profesional dan commissioning sistem genset",
+      "features": [
+        "Site survey",
+        "Installation planning",
+        "System commissioning",
+        "Training operator"
+      ],
+      "icon": "service-icon4.svg"
+    }
+  ],
+  "pricing": [
+    {
+      "capacity": "20kVA",
+      "name": "Daya Esensial",
+      "price": "Rp. 2,25jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 20kVA"
+    },
+    {
+      "capacity": "30kVA",
+      "name": "Daya Optimal",
+      "price": "Rp. 2,5jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 30kVA"
+    },
+    {
+      "capacity": "40kVA",
+      "name": "Daya Standar",
+      "price": "Rp. 2,75jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 40kVA"
+    },
+    {
+      "capacity": "50kVA",
+      "name": "Daya Kuat",
+      "price": "Rp. 3,25jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 50kVA"
+    },
+    {
+      "capacity": "60kVA",
+      "name": "Daya Menengah",
+      "price": "Rp. 3,5jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 60kVA"
+    },
+    {
+      "capacity": "80kVA",
+      "name": "Daya Andal",
+      "price": "Rp. 4,5jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 80kVA"
+    },
+    {
+      "capacity": "100kVA",
+      "name": "Daya Tinggi",
+      "price": "Rp. 5jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 100kVA"
+    },
+    {
+      "capacity": "125kVA",
+      "name": "Daya Ekstra",
+      "price": "Rp. 6jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 125kVA"
+    },
+    {
+      "capacity": "150kVA",
+      "name": "Daya Superior",
+      "price": "Rp. 7,5jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 150kVA"
+    },
+    {
+      "capacity": "200kVA",
+      "name": "Daya Profesional",
+      "price": "Rp. 10jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 200kVA"
+    },
+    {
+      "capacity": "250kVA",
+      "name": "Daya Industri",
+      "price": "Rp. 12,5jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 250kVA"
+    },
+    {
+      "capacity": "300kVA",
+      "name": "Daya Korporat",
+      "price": "Rp. 17,5jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 300kVA"
+    },
+    {
+      "capacity": "350kVA",
+      "name": "Daya Premium",
+      "price": "Rp. 25jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 350kVA"
+    },
+    {
+      "capacity": "400kVA",
+      "name": "Daya Besar",
+      "price": "Rp. 35jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 400kVA"
+    },
+    {
+      "capacity": "500kVA",
+      "name": "Daya Maksimal",
+      "price": "Rp. 45jt",
+      "period": "/ Hari",
+      "description": "Genset dengan kapasitas 500kVA"
+    }
+  ],
+  "features": [
+    "Layanan 50Hz-60Hz | 220V-480V 3Phase",
+    "Layanan 24Jam serta aftersales terbaik",
+    "Terlengkap dan Terpecaya selama belasan tahun",
+    "20kVA sampai 2000kVA siap pakai"
+  ],
+  "clients": [
+    "PT. Prima Energi Bawean",
+    "Gilgal Center, PIK",
+    "PT. HAN KONSTRUKSI",
+    "Halliburton, Tanggerang Selatan",
+    "PT. Pfizer Indonesia, Jakarta",
+    "PT. YKK Indonesia, Jakarta"
+  ],
+  "brand": {
+    "logo": "assets/img/logo/logo1.png",
+    "favicon": "assets/img/logo/fav-logo1.png",
+    "theme_color": "#1a365d",
+    "domain": "harlindojaya.com"
+  },
+  "seo": {
+    "title": "Instalasi, Jual Beli, dan Service Genset & Industri | HarlindoJaya",
+    "description": "Layanan profesional instalasi, jual beli, dan service genset & industri. Rental genset, power house, overhaul, paralelisasi, dan sistem peringatan otomatis.",
+    "keywords": [
+      "genset",
+      "rental genset",
+      "service genset",
+      "instalasi genset",
+      "overhaul genset",
+      "power house",
+      "generator"
+    ]
+  },
+  "analytics": {
+    "gtm_id": "GTM-PW59T7QP"
+  },
+  "assets": {
+    "logo_branding": [
+      "assets/img/logo/logo1.png",
+      "assets/img/logo/fav-logo1.png"
+    ],
+    "hero_images": [
+      "assets/img/all-images/hero/header-img1.png",
+      "assets/img/all-images/hero/header-img11.png",
+      "assets/img/all-images/hero/hero-img2.png"
+    ],
+    "service_images": [
+      "assets/img/all-images/service/service-img1.png",
+      "assets/img/all-images/service/service-img2.png",
+      "assets/img/all-images/service/service-img3.png",
+      "assets/img/all-images/service/service-img4.png",
+      "assets/img/all-images/service/service-img5.png",
+      "assets/img/all-images/service/service-img6.png",
+      "assets/img/all-images/service/service-img7.png",
+      "assets/img/all-images/service/service-img8.png",
+      "assets/img/all-images/service/service-img9.png",
+      "assets/img/all-images/service/service-img10.png",
+      "assets/img/all-images/service/service-img11.png",
+      "assets/img/all-images/service/service-img12.png",
+      "assets/img/all-images/service/service-img13.png",
+      "assets/img/all-images/service/service-img14.png",
+      "assets/img/all-images/service/service-img15.png",
+      "assets/img/all-images/service/service-img16.png",
+      "assets/img/all-images/service/service-img17.png",
+      "assets/img/all-images/service/service-img18.png"
+    ],
+    "work_portfolio": [
+      "assets/img/all-images/work/work-img1.png",
+      "assets/img/all-images/work/work-img2.png",
+      "assets/img/all-images/work/work-img3.png",
+      "assets/img/all-images/work/work-img4.png",
+      "assets/img/all-images/work/work-img5.png",
+      "assets/img/all-images/work/work-img6.png"
+    ],
+    "gallery_images": [
+      "assets/img/all-images/gallery/gallery-img1.png",
+      "assets/img/all-images/gallery/gallery-img2.png",
+      "assets/img/all-images/gallery/gallery-img3.png",
+      "assets/img/all-images/gallery/gallery-img4.png",
+      "assets/img/all-images/gallery/gallery-img5.png",
+      "assets/img/all-images/gallery/gallery-img6.png",
+      "assets/img/all-images/gallery/gallery-img7.png",
+      "assets/img/all-images/gallery/gallery-img8.png",
+      "assets/img/all-images/gallery/gallery-img9.png",
+      "assets/img/all-images/gallery/gallery-img10.png",
+      "assets/img/all-images/gallery/gallery-img11.png",
+      "assets/img/all-images/gallery/gallery-img12.png",
+      "assets/img/all-images/gallery/gallery-img13.png",
+      "assets/img/all-images/gallery/gallery-img14.png"
+    ],
+    "about_images": [
+      "assets/img/all-images/about/about-img1.png",
+      "assets/img/all-images/about/about-img2.png",
+      "assets/img/all-images/about/about-img3.png",
+      "assets/img/all-images/about/about-img4.png",
+      "assets/img/all-images/about/about-img5.png",
+      "assets/img/all-images/about/about-img6.png",
+      "assets/img/all-images/about/about-img7.png",
+      "assets/img/all-images/about/about-img8.png"
+    ],
+    "contact_images": [
+      "assets/img/all-images/contact/callus.png",
+      "assets/img/all-images/contact/contact-img1.png"
+    ],
+    "background_images": [
+      "assets/img/bg/header-bg1.png",
+      "assets/img/bg/header-bg2.png",
+      "assets/img/bg/hero-bg3.png",
+      "assets/img/bg/hero-bg4.png",
+      "assets/img/bg/hero-bg5.png",
+      "assets/img/bg/hero-bg6.png",
+      "assets/img/bg/service-bg1.png",
+      "assets/img/bg/contact-bg1.png",
+      "assets/img/bg/counter-bg1.png",
+      "assets/img/bg/cta-bg1.png",
+      "assets/img/bg/footer-bg1.png",
+      "assets/img/bg/footer-bg2.png",
+      "assets/img/bg/footer-bg3.png",
+      "assets/img/bg/gallery-bg1.png",
+      "assets/img/bg/inner-bg1.png",
+      "assets/img/bg/testimonial-bg1.png"
+    ],
+    "icons_svg": [
+      "assets/img/icons/about-icon1.svg",
+      "assets/img/icons/about-icon2.svg",
+      "assets/img/icons/about-icon3.svg",
+      "assets/img/icons/about-icon4.svg",
+      "assets/img/icons/service-icon1.svg",
+      "assets/img/icons/service-icon2.svg",
+      "assets/img/icons/service-icon3.svg",
+      "assets/img/icons/service-icon4.svg",
+      "assets/img/icons/contact-icon1.svg",
+      "assets/img/icons/contact-icon2.svg",
+      "assets/img/icons/contact-icon3.svg",
+      "assets/img/icons/call-icon1.svg",
+      "assets/img/icons/email-icon1.svg",
+      "assets/img/icons/location-icon1.svg",
+      "assets/img/icons/energy.svg",
+      "assets/img/icons/time.svg",
+      "assets/img/icons/check-icon1.svg",
+      "assets/img/icons/arrow1.svg"
+    ],
+    "decorative_elements": [
+      "assets/img/elements/elements1.png",
+      "assets/img/elements/elements2.png",
+      "assets/img/elements/elements3.png",
+      "assets/img/elements/elements4.png",
+      "assets/img/elements/elements5.png",
+      "assets/img/elements/elements6.png",
+      "assets/img/elements/elements7.png",
+      "assets/img/elements/elements8.png",
+      "assets/img/elements/elements10.png",
+      "assets/img/elements/elements12.png",
+      "assets/img/elements/elements15.png",
+      "assets/img/elements/elements16.png",
+      "assets/img/elements/elements17.png",
+      "assets/img/elements/elements18.png",
+      "assets/img/elements/elements55.png",
+      "assets/img/elements/line-img1.png"
+    ],
+    "brand_logos": [
+      "assets/img/elements/brand1.png",
+      "assets/img/elements/brand2.png",
+      "assets/img/elements/brand3.png",
+      "assets/img/elements/brand4.png",
+      "assets/img/elements/brand5.png",
+      "assets/img/elements/brand6.png",
+      "assets/img/elements/brand7.png",
+      "assets/img/elements/brand8.png",
+      "assets/img/elements/brand9.png",
+      "assets/img/elements/brand10.png"
+    ],
+    "cta_images": [
+      "assets/img/all-images/cta/cta-img1.png",
+      "assets/img/all-images/cta/cta-img2.png",
+      "assets/img/all-images/cta/cta-img3.png",
+      "assets/img/all-images/cta/cta-img4.png",
+      "assets/img/all-images/cta/cta-img5.png"
+    ],
+    "faq_images": [
+      "assets/img/all-images/faq/faq-img1.png",
+      "assets/img/all-images/faq/faq-img2.png",
+      "assets/img/all-images/faq/faq-img3.png"
+    ],
+    "other_images": [
+      "assets/img/all-images/others/404.png",
+      "assets/img/all-images/others/auhtor-img1.png",
+      "assets/img/all-images/others/author-img2.png",
+      "assets/img/all-images/others/others-img1.png"
+    ]
+  },
+  "asset_summary": {
+    "total_images": 125,
+    "categories": 14,
+    "by_category": {
+      "logo_branding": 2,
+      "hero_images": 3,
+      "service_images": 18,
+      "work_portfolio": 6,
+      "gallery_images": 14,
+      "about_images": 8,
+      "contact_images": 2,
+      "background_images": 16,
+      "icons_svg": 18,
+      "decorative_elements": 16,
+      "brand_logos": 10,
+      "cta_images": 5,
+      "faq_images": 3,
+      "other_images": 4
+    }
+  },
+  "special_capacity": {
+    "capacity_range": "750-2000kVA",
+    "name": "Kapasitas Besar",
+    "price": "Tersedia Atas Permintaan",
+    "period": "",
+    "description": "Kapasitas besar untuk kebutuhan industri dan komersial skala besar",
+    "contact_required": true
+  },
+  "pricing_notes": {
+    "includes": "All in BBM 12 jam",
+    "updated": "2024-05-26",
+    "currency": "IDR",
+    "period": "Per hari",
+    "total_packages": 15,
+    "range": "20kVA - 500kVA",
+    "special_range": "750-2000kVA (On Call)"
+  },
+  "company_profile": {
+    "established": "2014",
+    "experience_years": "10+",
+    "specialization": "Generator Set Solutions",
+    "coverage_area": "Jabodetabek & Indonesia",
+    "capacity_range": "20kVA - 2000kVA",
+    "certifications": [
+      "ISO 9001:2015",
+      "Certified Technicians",
+      "Authorized Dealer"
+    ]
+  }
+}
