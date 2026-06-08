@@ -73,9 +73,9 @@ export function Hero() {
           {/* Tactical telemetry stats */}
           <div className="grid grid-cols-3 gap-6 pt-12 border-t border-line/50 max-w-xl">
             {[
-              { v: "5.0", u: "Rating Klien" },
-              { v: "10+", u: "Tahun Pengalaman" },
-              { v: "24/7", u: "Layanan & Aftersales" },
+              { v: "5.0", u: "Terakreditasi" },
+              { v: "50Hz–60Hz", u: "220V–480V 3Phase" },
+              { v: "24 Jam", u: "Layanan & Aftersales" },
             ].map((s) => (
               <div key={s.u} className="space-y-1">
                 <div className="font-mono text-xl lg:text-2xl text-fg-primary num-mono tracking-tight">

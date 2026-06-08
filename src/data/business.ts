@@ -13,11 +13,11 @@ export const company = {
 
 export const contact = {
   phone: "+62 81281104105",
-  phoneRaw: "+628**9*****05",
-  whatsapp: "62812****4105",
-  whatsappBase: "https://wa.me/62812****4105",
+  phoneRaw: "+6281281104105",
+  whatsapp: "6281281104105",
+  whatsappBase: "https://wa.me/6281281104105",
   whatsappMessage:
-    "Halo HarlindoJaya, saya tertarik dengan layanan rental genset. Mohon informasi penawarannya.",
+    "Halo saya ingin menyewa genset. Bisakah saya mendapatkan informasi lebih lanjut?",
   email: "contact@harlindojaya.com",
   address: {
     street: "Jl Raya Klapanunggal",
@@ -183,7 +183,7 @@ export const whyChooseUs = [
     icon: "Clock",
   },
   {
-    title: "Terlengkap dan Terpercaya selama Belasan Tahun",
+    title: "Terlengkap dan Terpecaya selama belasan tahun",
     description:
       "Berpengalaman lebih dari 10 tahun di bidang genset, melayani Rental, Syncronizing, Jual Beli, hingga Overhaul mesin atau Bodyworks.",
     icon: "Stack",
@@ -222,7 +222,7 @@ export const faq = [
 export const clients = [
   {
     name: "Halliburton",
-    location: "Tangerang Selatan",
+    location: "Tanggerang Selatan",
     project: "Digunakan untuk uji coba peralatan dalam aplikasi minyak dan gas dengan konfigurasi frekuensi 60Hz.",
     sector: "Energi (Oil & Gas)",
   },
@@ -259,7 +259,7 @@ export const clients = [
 ];
 
 export const stats = [
-  { value: "5.0", label: "Rating Klien" },
+  { value: "5.0", label: "Terakreditasi" },
   { value: "99.9%", label: "Satisfied Clients" },
   { value: "10+", label: "Years of Experience" },
 ];
