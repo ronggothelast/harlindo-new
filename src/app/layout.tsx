@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+import { company, contact, faq, seo, services } from "@/data/business";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -55,9 +56,50 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0A0A0A",
+  themeColor: "#F7FAFF",
   width: "device-width",
   initialScale: 1,
+};
+
+const businessJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  name: `${company.legal} ${company.name}`,
+  url: seo.baseUrl,
+  image: `${seo.baseUrl}/images/logo1.png`,
+  telephone: contact.phone,
+  email: contact.email,
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: contact.address.street,
+    addressLocality: contact.address.city,
+    addressRegion: contact.address.province,
+    addressCountry: "ID",
+  },
+  areaServed: contact.serviceArea,
+  openingHours: "Mo-Fr 08:00-17:00",
+  sameAs: ["https://www.instagram.com/HarlindoJaya/"],
+  makesOffer: services.map((service) => ({
+    "@type": "Offer",
+    itemOffered: {
+      "@type": "Service",
+      name: service.name,
+      description: service.description,
+    },
+  })),
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
 };
 
 export default function RootLayout({
@@ -80,6 +122,14 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-bg-primary text-fg-primary antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(businessJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-PW59T7QP"

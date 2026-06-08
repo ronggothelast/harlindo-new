@@ -43,7 +43,7 @@ export function Footer() {
 
           {/* Navigation */}
           <div className="lg:col-span-3 space-y-4">
-            <h3 className="font-mono text-[10px] uppercase tracking-[0.25em] text-fg-muted">
+            <h3 className="font-mono text-[11px] uppercase tracking-[0.2em] text-fg-secondary">
               Navigasi
             </h3>
             <ul className="space-y-2 text-sm">
@@ -62,7 +62,7 @@ export function Footer() {
 
           {/* Operasional */}
           <div className="lg:col-span-4 space-y-4">
-            <h3 className="font-mono text-[10px] uppercase tracking-[0.25em] text-fg-muted">
+            <h3 className="font-mono text-[11px] uppercase tracking-[0.2em] text-fg-secondary">
               Operasional
             </h3>
             <div className="space-y-3 text-sm text-fg-secondary leading-relaxed">

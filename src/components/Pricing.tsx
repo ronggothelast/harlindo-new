@@ -6,12 +6,12 @@ export function Pricing() {
   return (
     <section
       id="harga"
-      className="relative py-32 lg:py-40 bg-bg-surface/30"
+      className="relative py-20 md:py-28 lg:py-32 bg-bg-surface/30"
       aria-labelledby="pricing-title"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
-        <div className="grid lg:grid-cols-12 gap-8 mb-20 items-end">
-          <div className="lg:col-span-7 space-y-6">
+        <div className="mb-14 md:mb-16 space-y-6 max-w-3xl">
+          <div className="space-y-6">
             <Eyebrow>Daftar Harga</Eyebrow>
             <h2
               id="pricing-title"
@@ -22,7 +22,7 @@ export function Pricing() {
               <span className="text-amber italic font-light">sesuai kebutuhan.</span>
             </h2>
           </div>
-          <div className="lg:col-span-5 lg:pl-12 space-y-3">
+          <div className="grid gap-3 sm:grid-cols-2">
             {Object.entries(pricingNotes).map(([k, v]) => (
               <p
                 key={k}
@@ -40,7 +40,7 @@ export function Pricing() {
         </div>
 
         {/* Pricing bento grid - 15 packages */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-4">
           {pricing.map((p, i) => (
             <div
               key={p.capacity}
@@ -81,15 +81,15 @@ export function Pricing() {
                   </div>
                 </div>
                 <ul className="space-y-1.5 pt-3 border-t border-line/30">
-                  <li className="text-[11px] text-fg-secondary flex items-center gap-2">
+                  <li className="text-xs text-fg-secondary flex items-center gap-2">
                     <span className="h-1 w-1 rounded-full bg-amber/60 flex-shrink-0" />
                     {p.hours}
                   </li>
-                  <li className="text-[11px] text-fg-secondary flex items-center gap-2">
+                  <li className="text-xs text-fg-secondary flex items-center gap-2">
                     <span className="h-1 w-1 rounded-full bg-amber/60 flex-shrink-0" />
                     {p.cable}
                   </li>
-                  <li className="text-[11px] text-fg-secondary flex items-center gap-2">
+                  <li className="text-xs text-fg-secondary flex items-center gap-2">
                     <span className="h-1 w-1 rounded-full bg-amber/60 flex-shrink-0" />
                     Bebas Repot Transportasi
                   </li>
@@ -99,7 +99,7 @@ export function Pricing() {
           ))}
 
           {/* Special capacity card */}
-          <div className="group rounded-2xl border border-amber/30 bg-gradient-to-br from-bg-elevated to-bg-card p-6 lg:p-8 col-span-2 md:col-span-3 lg:col-span-4 xl:col-span-5">
+          <div className="group rounded-2xl border border-amber/30 bg-gradient-to-br from-bg-elevated to-bg-card p-6 lg:p-8 sm:col-span-2 md:col-span-3 lg:col-span-4 xl:col-span-5">
             <div className="grid lg:grid-cols-2 gap-6 items-start">
               <div>
                 <span className="font-mono text-[10px] uppercase tracking-[0.25em] text-amber mb-3 inline-block">
