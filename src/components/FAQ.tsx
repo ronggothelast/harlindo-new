@@ -55,7 +55,7 @@ export function FAQ() {
                   <div
                     className={`flex-shrink-0 h-8 w-8 rounded-full border border-line flex items-center justify-center transition-all duration-300 ${
                       isOpen
-                        ? "bg-amber border-amber text-bg-primary"
+                        ? "bg-amber border-amber text-white"
                         : "text-fg-secondary"
                     }`}
                   >

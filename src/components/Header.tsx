@@ -22,8 +22,8 @@ export function Header() {
       className={cn(
         "fixed top-0 left-0 right-0 z-40 transition-all duration-500 ease-haptic",
         scrolled
-          ? "bg-bg-primary/80 backdrop-blur-3xl border-b border-line"
-          : "bg-transparent",
+          ? "bg-white/85 backdrop-blur-3xl border-b border-line shadow-sm"
+          : "bg-white/70 backdrop-blur-xl",
       )}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-12 py-5 flex items-center justify-between gap-4">
@@ -52,7 +52,7 @@ export function Header() {
             href={whatsappLink()}
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center gap-2 rounded-full bg-amber text-bg-primary px-4 py-2 text-xs font-bold uppercase tracking-wider hover:bg-amber-hover transition-all duration-300 ease-haptic active:scale-[0.98]"
+            className="hidden sm:inline-flex items-center gap-2 rounded-full bg-amber text-white px-4 py-2 text-xs font-bold uppercase tracking-wider hover:bg-amber-hover transition-all duration-300 ease-haptic active:scale-[0.98]"
           >
             <Phone weight="bold" size={14} />
             <span>Hubungi Kami</span>
@@ -71,7 +71,7 @@ export function Header() {
 
       {open && (
         <nav
-          className="lg:hidden border-t border-line bg-bg-primary/95 backdrop-blur-3xl"
+          className="lg:hidden border-t border-line bg-white/95 backdrop-blur-3xl shadow-sm"
           aria-label="Mobile"
         >
           <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col gap-4">
@@ -89,7 +89,7 @@ export function Header() {
               href={whatsappLink()}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-amber text-bg-primary px-6 py-3 text-sm font-bold uppercase tracking-wider"
+              className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-amber text-white px-6 py-3 text-sm font-bold uppercase tracking-wider"
             >
               <Phone weight="bold" size={16} />
               Hubungi {contact.phone}

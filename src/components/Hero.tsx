@@ -7,13 +7,13 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[100dvh] flex items-center pt-32 pb-20 overflow-hidden"
+      className="relative min-h-[100dvh] flex items-center pt-24 pb-16 overflow-hidden"
       aria-labelledby="hero-title"
     >
       {/* Ambient glow background */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute top-1/4 -left-1/4 h-[800px] w-[800px] rounded-full bg-amber/5 blur-[180px] animate-ambient-glow" />
-        <div className="absolute bottom-0 right-0 h-[600px] w-[600px] rounded-full bg-amber/[0.03] blur-[140px]" />
+        <div className="absolute top-1/4 -left-1/4 h-[800px] w-[800px] rounded-full bg-amber/10 blur-[180px] animate-ambient-glow" />
+        <div className="absolute bottom-0 right-0 h-[600px] w-[600px] rounded-full bg-sky-200/30 blur-[140px]" />
       </div>
 
       {/* Grid lines */}
@@ -34,16 +34,12 @@ export function Hero() {
 
           <h1
             id="hero-title"
-            className="text-5xl sm:text-6xl lg:text-[5.5rem] xl:text-[6.5rem] font-bold leading-[0.95] tracking-tightest"
+            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.05] tracking-tightest text-balance"
           >
-            Siap menjadi
-            <br />
-            mitra terbaik
-            <br />
-            <span className="text-amber italic font-light">anda!</span>
+            Siap menjadi mitra terbaik <span className="text-amber italic font-light pb-1">anda!</span>
           </h1>
 
-          <p className="text-lg lg:text-xl text-fg-secondary max-w-xl leading-relaxed">
+          <p className="text-base lg:text-lg text-fg-secondary max-w-xl leading-relaxed">
             Instalasi, Jual Beli, dan Service Genset, Power House, Overhaul,
             Paralelisasi, Sistem Peringatan Otomatis & Perangkat Pemutus,
             serta Instalasi Industri.
@@ -98,17 +94,17 @@ export function Hero() {
                 alt="HarlindoJaya genset operational"
                 fill
                 priority
-                className="object-cover opacity-90"
+                className="object-cover opacity-95"
                 sizes="(min-width: 1024px) 40vw, 100vw"
               />
               {/* Vignette */}
               <div
                 aria-hidden
-                className="absolute inset-0 bg-gradient-to-tr from-bg-primary via-transparent to-transparent"
+                className="absolute inset-0 bg-gradient-to-tr from-white/80 via-transparent to-transparent"
               />
               {/* Telemetry overlay */}
               <div className="absolute top-6 left-6 right-6 flex justify-between items-start font-mono text-[10px] uppercase tracking-[0.25em]">
-                <span className="text-amber">● AKTIF</span>
+                <span className="text-amber">AKTIF</span>
                 <span className="text-fg-muted">UNIT-001</span>
               </div>
               <div className="absolute bottom-6 left-6 right-6 font-mono text-[10px] uppercase tracking-[0.2em] text-fg-muted">

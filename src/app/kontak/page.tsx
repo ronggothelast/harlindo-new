@@ -100,7 +100,7 @@ export default function KontakPage() {
                       <div
                         className={`h-14 w-14 rounded-2xl flex items-center justify-center ${
                           c.primary
-                            ? "bg-amber text-bg-primary"
+                            ? "bg-amber text-white"
                             : "bg-amber/5 border border-amber/20 text-amber"
                         }`}
                       >

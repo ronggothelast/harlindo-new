@@ -7,35 +7,35 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Tactical Telemetry Backgrounds
+        // Light industrial blue-white surfaces
         bg: {
-          primary: "#0A0A0A",      // Deactivated CRT
-          surface: "#121212",       // Vantablack card
-          elevated: "#1A1A1A",      // Elevated surface
-          card: "#0F0F0F",          // Card inner core
+          primary: "#F7FAFF",
+          surface: "#FFFFFF",
+          elevated: "#EEF6FF",
+          card: "#FFFFFF",
         },
-        // White Phosphor
+        // Ink hierarchy
         fg: {
-          primary: "#EAEAEA",
-          secondary: "#A1A1AA",
-          muted: "#71717A",
-          dim: "#52525B",
+          primary: "#0F172A",
+          secondary: "#475569",
+          muted: "#64748B",
+          dim: "#94A3B8",
         },
-        // Industrial Accents
+        // Primary brand accent: blue
         amber: {
-          DEFAULT: "#F59E0B",
-          hover: "#FBBF24",
-          glow: "rgba(245, 158, 11, 0.3)",
+          DEFAULT: "#1D4ED8",
+          hover: "#1E40AF",
+          glow: "rgba(29, 78, 216, 0.18)",
         },
         hazard: {
-          DEFAULT: "#E61919",
-          hover: "#FF2A2A",
+          DEFAULT: "#DC2626",
+          hover: "#B91C1C",
         },
-        // Hairlines
+        // Light-mode hairlines
         line: {
-          DEFAULT: "rgba(255, 255, 255, 0.08)",
-          strong: "rgba(255, 255, 255, 0.12)",
-          accent: "rgba(245, 158, 11, 0.2)",
+          DEFAULT: "rgba(37, 99, 235, 0.12)",
+          strong: "rgba(15, 23, 42, 0.16)",
+          accent: "rgba(29, 78, 216, 0.22)",
         },
       },
       fontFamily: {
@@ -84,9 +84,9 @@ const config: Config = {
         "3xl": "64px",
       },
       boxShadow: {
-        "amber-glow": "0 0 32px rgba(245, 158, 11, 0.3)",
-        "card-inset": "inset 0 1px 1px rgba(255,255,255,0.06)",
-        "card-deep": "0 24px 48px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255,255,255,0.05)",
+        "amber-glow": "0 18px 48px rgba(29, 78, 216, 0.18)",
+        "card-inset": "inset 0 1px 1px rgba(255,255,255,0.75)",
+        "card-deep": "0 24px 60px rgba(15, 23, 42, 0.10), 0 0 0 1px rgba(37, 99, 235, 0.10)",
       },
     },
   },
