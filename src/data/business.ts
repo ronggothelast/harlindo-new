@@ -173,7 +173,7 @@ export const whyChooseUs = [
   {
     title: "Spesialis 60Hz & Low Voltage 220V 3 Phase",
     description:
-      "Siap menangani kebutuhan genset 60Hz dan low voltage 220V 3 Phase untuk proyek industri maupun operasional khusus.",
+      "Siap menangani kebutuhan genset 60Hz low voltage 220V 3 Phase serta layanan 50Hz / 380V 3 Phase untuk proyek industri maupun operasional khusus.",
     icon: "ShieldCheck",
   },
   {

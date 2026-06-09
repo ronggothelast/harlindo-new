@@ -71,9 +71,9 @@ export default function TentangPage() {
                 lainnya.
               </p>
               <p className="text-fg-primary font-medium border-l-2 border-amber pl-6 py-2">
-                Tim Kami Siap Membantu Anda. Spesialis 60Hz dan low voltage
-                220V 3 Phase. Layanan 24 Jam serta aftersales terbaik.
-                Terlengkap dan terpercaya selama belasan tahun.
+                Tim Kami Siap Membantu Anda. Spesialis 60Hz low voltage 220V 3
+                Phase serta layanan 50Hz / 380V 3 Phase. Layanan 24 Jam serta
+                aftersales terbaik. Terlengkap dan terpercaya selama belasan tahun.
               </p>
             </div>
           </div>

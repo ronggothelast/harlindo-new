@@ -67,10 +67,11 @@ export function Hero() {
           </div>
 
           {/* Tactical telemetry stats */}
-          <div className="grid grid-cols-3 gap-6 pt-12 border-t border-line/50 max-w-xl">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 pt-12 border-t border-line/50 max-w-2xl">
             {[
               { v: "5.0", u: "Terakreditasi" },
-              { v: "60Hz", u: "Low Voltage 220V 3 Phase" },
+              { v: "60Hz", u: "220V 3 Phase" },
+              { v: "50Hz", u: "380V 3 Phase" },
               { v: "24 Jam", u: "Layanan & Aftersales" },
             ].map((s) => (
               <div key={s.u} className="space-y-1">
