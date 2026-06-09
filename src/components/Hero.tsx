@@ -100,7 +100,7 @@ export function Hero() {
               {/* Vignette */}
               <div
                 aria-hidden
-                className="absolute inset-0 bg-gradient-to-tr from-white/80 via-transparent to-transparent"
+                className="absolute inset-0 bg-gradient-to-tr from-bg-card/80 via-transparent to-transparent"
               />
               {/* Telemetry overlay */}
               <div className="absolute top-6 left-6 right-6 flex justify-between items-start font-mono text-[10px] uppercase tracking-[0.25em]">

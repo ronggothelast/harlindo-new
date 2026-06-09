@@ -5,30 +5,72 @@
 @layer base {
   /* CSS Variables for design tokens */
   :root {
-    /* Light industrial blue-white surfaces */
+    color-scheme: light;
     --bg-primary: #f7faff;
     --bg-surface: #ffffff;
     --bg-elevated: #eef6ff;
     --bg-card: #ffffff;
-
-    /* Ink hierarchy */
     --fg-primary: #0f172a;
     --fg-secondary: #475569;
     --fg-muted: #64748b;
-
-    /* Brand accent: blue */
     --accent-amber: #1d4ed8;
     --accent-amber-hover: #1e40af;
     --accent-hazard: #dc2626;
-
-    /* Hairlines */
     --hairline: rgba(37, 99, 235, 0.12);
     --hairline-strong: rgba(15, 23, 42, 0.16);
-
-    /* Motion */
+    --color-bg-primary: 247 250 255;
+    --color-bg-surface: 255 255 255;
+    --color-bg-elevated: 238 246 255;
+    --color-bg-card: 255 255 255;
+    --color-fg-primary: 15 23 42;
+    --color-fg-secondary: 71 85 105;
+    --color-fg-muted: 100 116 139;
+    --color-fg-dim: 148 163 184;
+    --color-accent: 29 78 216;
+    --color-accent-hover: 30 64 175;
+    --color-hazard: 220 38 38;
+    --color-hazard-hover: 185 28 28;
+    --color-line: 37 99 235;
+    --color-line-strong: 15 23 42;
+    --color-line-accent: 29 78 216;
+    --color-shadow: 15 23 42;
+    --color-inset: 255 255 255;
     --ease-haptic: cubic-bezier(0.32, 0.72, 0, 1);
     --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
     --ease-industrial: cubic-bezier(0.65, 0, 0.35, 1);
+  }
+
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg-primary: #07111f;
+    --bg-surface: #0b1727;
+    --bg-elevated: #10243a;
+    --bg-card: #0f1d2f;
+    --fg-primary: #eaf2ff;
+    --fg-secondary: #cbd8ea;
+    --fg-muted: #a9bdd5;
+    --accent-amber: #60a5fa;
+    --accent-amber-hover: #93c5fd;
+    --accent-hazard: #f87171;
+    --hairline: rgba(147, 197, 253, 0.18);
+    --hairline-strong: rgba(226, 232, 240, 0.22);
+    --color-bg-primary: 7 17 31;
+    --color-bg-surface: 11 23 39;
+    --color-bg-elevated: 16 36 58;
+    --color-bg-card: 15 29 47;
+    --color-fg-primary: 234 242 255;
+    --color-fg-secondary: 203 216 234;
+    --color-fg-muted: 169 189 213;
+    --color-fg-dim: 100 116 139;
+    --color-accent: 96 165 250;
+    --color-accent-hover: 147 197 253;
+    --color-hazard: 248 113 113;
+    --color-hazard-hover: 252 165 165;
+    --color-line: 147 197 253;
+    --color-line-strong: 226 232 240;
+    --color-line-accent: 96 165 250;
+    --color-shadow: 0 0 0;
+    --color-inset: 255 255 255;
   }
 
   /* Reset */
@@ -66,11 +108,11 @@
   }
 
   ::-webkit-scrollbar-track {
-    background: #eef6ff;
+    background: var(--bg-elevated);
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #bfdbfe;
+    background: rgb(var(--color-accent) / 0.32);
     border-radius: 999px;
   }
 
@@ -101,7 +143,7 @@
   /* ===== EYEBROW TAG (mandatory pattern) ===== */
   .eyebrow {
     @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-[10px] uppercase tracking-widest font-medium;
-    @apply bg-white border border-line text-fg-secondary shadow-sm;
+    @apply bg-bg-card border border-line text-fg-secondary shadow-sm;
   }
 
   .eyebrow-amber {
@@ -111,7 +153,7 @@
 
   /* ===== DOUBLE-BEZEL CARD (mandatory pattern) ===== */
   .bezel-shell {
-    @apply relative rounded-[2rem] p-1.5 bg-white ring-1 ring-line shadow-card-deep;
+    @apply relative rounded-[2rem] p-1.5 bg-bg-card ring-1 ring-line shadow-card-deep;
     @apply transition-all duration-700 ease-haptic;
   }
 
@@ -140,7 +182,7 @@
   }
 
   .btn-ghost {
-    @apply btn-pill bg-white border border-line text-fg-primary hover:bg-bg-elevated hover:border-line-strong;
+    @apply btn-pill bg-bg-card border border-line text-fg-primary hover:bg-bg-elevated hover:border-line-strong;
   }
 
   /* Button-in-Button trailing icon */

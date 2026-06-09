@@ -9,33 +9,33 @@ const config: Config = {
       colors: {
         // Light industrial blue-white surfaces
         bg: {
-          primary: "#F7FAFF",
-          surface: "#FFFFFF",
-          elevated: "#EEF6FF",
-          card: "#FFFFFF",
+          primary: "rgb(var(--color-bg-primary) / <alpha-value>)",
+          surface: "rgb(var(--color-bg-surface) / <alpha-value>)",
+          elevated: "rgb(var(--color-bg-elevated) / <alpha-value>)",
+          card: "rgb(var(--color-bg-card) / <alpha-value>)",
         },
         // Ink hierarchy
         fg: {
-          primary: "#0F172A",
-          secondary: "#475569",
-          muted: "#64748B",
-          dim: "#94A3B8",
+          primary: "rgb(var(--color-fg-primary) / <alpha-value>)",
+          secondary: "rgb(var(--color-fg-secondary) / <alpha-value>)",
+          muted: "rgb(var(--color-fg-muted) / <alpha-value>)",
+          dim: "rgb(var(--color-fg-dim) / <alpha-value>)",
         },
         // Primary brand accent: blue
         amber: {
-          DEFAULT: "#1D4ED8",
-          hover: "#1E40AF",
-          glow: "rgba(29, 78, 216, 0.18)",
+          DEFAULT: "rgb(var(--color-accent) / <alpha-value>)",
+          hover: "rgb(var(--color-accent-hover) / <alpha-value>)",
+          glow: "rgb(var(--color-accent) / 0.18)",
         },
         hazard: {
-          DEFAULT: "#DC2626",
-          hover: "#B91C1C",
+          DEFAULT: "rgb(var(--color-hazard) / <alpha-value>)",
+          hover: "rgb(var(--color-hazard-hover) / <alpha-value>)",
         },
-        // Light-mode hairlines
+        // Theme-aware hairlines
         line: {
-          DEFAULT: "rgba(37, 99, 235, 0.12)",
-          strong: "rgba(15, 23, 42, 0.16)",
-          accent: "rgba(29, 78, 216, 0.22)",
+          DEFAULT: "rgb(var(--color-line) / <alpha-value>)",
+          strong: "rgb(var(--color-line-strong) / <alpha-value>)",
+          accent: "rgb(var(--color-line-accent) / <alpha-value>)",
         },
       },
       fontFamily: {
@@ -84,9 +84,9 @@ const config: Config = {
         "3xl": "64px",
       },
       boxShadow: {
-        "amber-glow": "0 18px 48px rgba(29, 78, 216, 0.18)",
-        "card-inset": "inset 0 1px 1px rgba(255,255,255,0.75)",
-        "card-deep": "0 24px 60px rgba(15, 23, 42, 0.10), 0 0 0 1px rgba(37, 99, 235, 0.10)",
+        "amber-glow": "0 18px 48px rgb(var(--color-accent) / 0.18)",
+        "card-inset": "inset 0 1px 1px rgb(var(--color-inset) / 0.75)",
+        "card-deep": "0 24px 60px rgb(var(--color-shadow) / 0.16), 0 0 0 1px rgb(var(--color-line) / 0.75)",
       },
     },
   },

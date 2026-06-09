@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import { Phone, List, X } from "@phosphor-icons/react";
 import { contact, navigation, whatsappLink } from "@/data/business";
 import { cn } from "@/lib/utils";
+import { ThemeToggle } from "./ThemeToggle";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -22,8 +23,8 @@ export function Header() {
       className={cn(
         "fixed top-0 left-0 right-0 z-40 transition-all duration-500 ease-haptic",
         scrolled
-          ? "bg-white/85 backdrop-blur-3xl border-b border-line shadow-sm"
-          : "bg-white/70 backdrop-blur-xl",
+          ? "bg-bg-card/85 backdrop-blur-3xl border-b border-line shadow-sm"
+          : "bg-bg-card/70 backdrop-blur-xl",
       )}
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-12 py-5 flex items-center justify-between gap-4">
@@ -48,6 +49,7 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-3">
+          <ThemeToggle />
           <a
             href={whatsappLink()}
             target="_blank"
@@ -71,7 +73,7 @@ export function Header() {
 
       {open && (
         <nav
-          className="lg:hidden border-t border-line bg-white/95 backdrop-blur-3xl shadow-sm"
+          className="lg:hidden border-t border-line bg-bg-card/95 backdrop-blur-3xl shadow-sm"
           aria-label="Mobile"
         >
           <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col gap-4">
