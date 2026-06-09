@@ -70,7 +70,7 @@ export function Hero() {
           <div className="grid grid-cols-3 gap-6 pt-12 border-t border-line/50 max-w-xl">
             {[
               { v: "5.0", u: "Terakreditasi" },
-              { v: "50Hz–60Hz", u: "220V–480V 3Phase" },
+              { v: "60Hz", u: "Low Voltage 220V 3 Phase" },
               { v: "24 Jam", u: "Layanan & Aftersales" },
             ].map((s) => (
               <div key={s.u} className="space-y-1">

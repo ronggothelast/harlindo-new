@@ -98,19 +98,19 @@ export const services = [
 // Daftar paket harga 20–500 kVA
 // Sumber: harlindojaya.com (kapasitas, nama paket, harga)
 export const pricing = [
-  { capacity: "20", unit: "kVA", name: "Daya Esensial", price: "2,25", priceFull: "Rp. 2.250.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
-  { capacity: "30", unit: "kVA", name: "Daya Optimal", price: "2,5", priceFull: "Rp. 2.500.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
-  { capacity: "40", unit: "kVA", name: "Daya Standar", price: "2,75", priceFull: "Rp. 2.750.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
-  { capacity: "50", unit: "kVA", name: "Daya Kuat", price: "3,25", priceFull: "Rp. 3.250.000", popular: true, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
-  { capacity: "60", unit: "kVA", name: "Daya Menengah", price: "3,5", priceFull: "Rp. 3.500.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
-  { capacity: "80", unit: "kVA", name: "Daya Andal", price: "4,5", priceFull: "Rp. 4.500.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
+  { capacity: "20", unit: "kVA", name: "Daya Esensial", price: "1,850", priceFull: "Rp. 1.850.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
+  { capacity: "30", unit: "kVA", name: "Daya Optimal", price: "1,9", priceFull: "Rp. 1.900.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
+  { capacity: "40", unit: "kVA", name: "Daya Standar", price: "2", priceFull: "Rp. 2.000.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
+  { capacity: "50", unit: "kVA", name: "Daya Kuat", price: "2,5", priceFull: "Rp. 2.500.000", popular: true, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
+  { capacity: "60", unit: "kVA", name: "Daya Menengah", price: "2,750", priceFull: "Rp. 2.750.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
+  { capacity: "80", unit: "kVA", name: "Daya Andal", price: "4", priceFull: "Rp. 4.000.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
   { capacity: "100", unit: "kVA", name: "Daya Tinggi", price: "5", priceFull: "Rp. 5.000.000", popular: true, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
   { capacity: "125", unit: "kVA", name: "Daya Ekstra", price: "6", priceFull: "Rp. 6.000.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
-  { capacity: "150", unit: "kVA", name: "Daya Superior", price: "7,5", priceFull: "Rp. 7.500.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
-  { capacity: "200", unit: "kVA", name: "Daya Profesional", price: "10", priceFull: "Rp. 10.000.000", popular: true, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
+  { capacity: "150", unit: "kVA", name: "Daya Superior", price: "7", priceFull: "Rp. 7.000.000", popular: false, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
+  { capacity: "200", unit: "kVA", name: "Daya Profesional", price: "9", priceFull: "Rp. 9.000.000", popular: true, hours: "12 Jam Operasional", cable: "Kabel Power 50 Meter" },
   { capacity: "250", unit: "kVA", name: "Daya Industri", price: "12,5", priceFull: "Rp. 12.500.000", popular: false, hours: "10 Jam Operasional", cable: "Kabel Power 20 Meter" },
   { capacity: "300", unit: "kVA", name: "Daya Korporat", price: "17,5", priceFull: "Rp. 17.500.000", popular: false, hours: "10 Jam Operasional", cable: "Kabel Power 20 Meter" },
-  { capacity: "350", unit: "kVA", name: "Daya Premium", price: "25", priceFull: "Rp. 25.000.000", popular: false, hours: "10 Jam Operasional", cable: "Kabel Power 20 Meter" },
+  { capacity: "350", unit: "kVA", name: "Daya Premium", price: "20", priceFull: "Rp. 20.000.000", popular: false, hours: "10 Jam Operasional", cable: "Kabel Power 20 Meter" },
   { capacity: "400", unit: "kVA", name: "Daya Besar", price: "35", priceFull: "Rp. 35.000.000", popular: false, hours: "10 Jam Operasional", cable: "Kabel Power 20 Meter" },
   { capacity: "500", unit: "kVA", name: "Daya Maksimal", price: "45", priceFull: "Rp. 45.000.000", popular: false, hours: "10 Jam Operasional", cable: "Kabel Power 20 Meter" },
 ];
@@ -171,9 +171,9 @@ export const howItWorks = [
 
 export const whyChooseUs = [
   {
-    title: "Layanan 50Hz–60Hz | 220V–480V 3 Phase",
+    title: "Spesialis 60Hz & Low Voltage 220V 3 Phase",
     description:
-      "Kompatibel untuk berbagai kebutuhan industri, mulai dari aplikasi domestik hingga internasional.",
+      "Siap menangani kebutuhan genset 60Hz dan low voltage 220V 3 Phase untuk proyek industri maupun operasional khusus.",
     icon: "ShieldCheck",
   },
   {
