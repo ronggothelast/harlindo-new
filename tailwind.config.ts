@@ -7,7 +7,7 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Heavy-duty diesel engine industrial surfaces
+        // Light industrial blue-white surfaces
         bg: {
           primary: "rgb(var(--color-bg-primary) / <alpha-value>)",
           surface: "rgb(var(--color-bg-surface) / <alpha-value>)",
@@ -21,7 +21,7 @@ const config: Config = {
           muted: "rgb(var(--color-fg-muted) / <alpha-value>)",
           dim: "rgb(var(--color-fg-dim) / <alpha-value>)",
         },
-        // Primary brand accent: diesel amber
+        // Primary brand accent: blue
         amber: {
           DEFAULT: "rgb(var(--color-accent) / <alpha-value>)",
           hover: "rgb(var(--color-accent-hover) / <alpha-value>)",

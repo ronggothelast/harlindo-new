@@ -12,25 +12,18 @@ export function Hero() {
     >
       {/* Ambient glow background */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute top-1/4 -left-1/4 h-[800px] w-[800px] rounded-full bg-amber/15 blur-[180px] animate-ambient-glow" />
-        <div className="absolute bottom-0 right-0 h-[600px] w-[600px] rounded-full bg-amber/20 blur-[140px]" />
+        <div className="absolute top-1/4 -left-1/4 h-[800px] w-[800px] rounded-full bg-amber/10 blur-[180px] animate-ambient-glow" />
+        <div className="absolute bottom-0 right-0 h-[600px] w-[600px] rounded-full bg-sky-200/30 blur-[140px]" />
       </div>
 
-      {/* Grid lines */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0 opacity-[0.04]"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, white 1px, transparent 1px), linear-gradient(to bottom, white 1px, transparent 1px)",
-          backgroundSize: "60px 60px",
-        }}
-      />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-12 grid lg:grid-cols-12 gap-12 items-center">
         {/* LEFT: Editorial copy */}
         <div className="lg:col-span-7 space-y-8">
-          <Eyebrow variant="amber">#01. Rental Genset & Layanan Pendukung</Eyebrow>
+          <div className="inline-flex items-center gap-2 rounded-full bg-amber/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-amber border border-amber/20">
+          <Wrench weight="bold" size={14} />
+          <span>Rental Genset & Layanan Pendukung</span>
+        </div>
 
           <h1
             id="hero-title"
@@ -66,7 +59,7 @@ export function Hero() {
             </a>
           </div>
 
-          {/* Tactical telemetry stats */}
+          {/* Key specs */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 pt-12 border-t border-line/50 max-w-2xl">
             {[
               { v: "5.0", u: "Terakreditasi" },
@@ -75,10 +68,10 @@ export function Hero() {
               { v: "24 Jam", u: "Layanan & Aftersales" },
             ].map((s) => (
               <div key={s.u} className="space-y-1">
-                <div className="font-mono text-xl lg:text-2xl text-fg-primary num-mono tracking-tight">
+                <div className="text-xl lg:text-2xl font-bold text-fg-primary tracking-tight">
                   {s.v}
                 </div>
-                <div className="text-[10px] uppercase tracking-[0.2em] text-fg-muted">
+                <div className="text-xs text-fg-muted">
                   {s.u}
                 </div>
               </div>
@@ -103,17 +96,6 @@ export function Hero() {
                 aria-hidden
                 className="absolute inset-0 bg-gradient-to-tr from-bg-card/80 via-transparent to-transparent"
               />
-              {/* Telemetry overlay */}
-              <div className="absolute top-6 left-6 right-6 flex justify-between items-start font-mono text-[10px] uppercase tracking-[0.25em]">
-                <span className="text-amber">AKTIF</span>
-                <span className="text-fg-muted">UNIT-001</span>
-              </div>
-              <div className="absolute bottom-6 left-6 right-6 font-mono text-[10px] uppercase tracking-[0.2em] text-fg-muted">
-                <div className="flex justify-between border-t border-line pt-3">
-                  <span>JABODETABEK</span>
-                  <span>BBM 12 JAM TERMASUK</span>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -121,7 +103,7 @@ export function Hero() {
           <div className="absolute -bottom-6 -left-6 lg:-left-12 hidden md:block">
             <div className="rounded-2xl bg-bg-elevated/90 backdrop-blur-xl border border-line-strong p-5 shadow-card-deep w-64">
               <div className="flex items-center gap-3">
-                <div className="h-10 w-10 rounded-full bg-amber/15 flex items-center justify-center">
+                <div className="h-10 w-10 rounded-full bg-amber/10 flex items-center justify-center">
                   <Lightning weight="light" size={20} className="text-amber" />
                 </div>
                 <div>
