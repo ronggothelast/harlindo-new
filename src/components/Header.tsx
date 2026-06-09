@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Phone, List, X } from "@phosphor-icons/react";
@@ -27,13 +28,30 @@ export function Header() {
           : "bg-bg-card/70 backdrop-blur-xl",
       )}
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-12 py-5 flex items-center justify-between gap-4">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-12 py-4 flex items-center justify-between gap-3">
         <Link
           href="/"
-          className="font-mono text-sm tracking-[0.2em] uppercase font-semibold hover:text-amber transition-colors duration-300"
+          className="group inline-flex items-center gap-3 rounded-full border border-line bg-bg-card/70 py-1.5 pl-1.5 pr-4 shadow-sm transition-all duration-300 ease-haptic hover:-translate-y-0.5 hover:border-line-strong hover:bg-bg-elevated active:scale-[0.98]"
           aria-label="HarlindoJaya home"
         >
-          HARLINDO<span className="text-amber">.JAYA</span>
+          <span className="relative flex h-10 w-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-amber/10 ring-1 ring-line-accent">
+            <Image
+              src="/images/fav-logo1.png"
+              alt=""
+              width={24}
+              height={24}
+              className="h-6 w-6 transition-transform duration-300 ease-haptic group-hover:scale-110"
+              priority
+            />
+          </span>
+          <span className="flex flex-col leading-none">
+            <span className="text-sm font-black tracking-[-0.02em] text-fg-primary">
+              Harlindo<span className="text-amber">Jaya</span>
+            </span>
+            <span className="mt-1 hidden text-[9px] font-mono uppercase tracking-[0.16em] text-fg-secondary sm:block">
+              Genset Partner
+            </span>
+          </span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8" aria-label="Primary">
