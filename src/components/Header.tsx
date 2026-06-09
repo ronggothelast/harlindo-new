@@ -30,10 +30,20 @@ export function Header() {
       <div className="mx-auto max-w-7xl px-6 lg:px-12 py-5 flex items-center justify-between gap-4">
         <Link
           href="/"
-          className="font-mono text-sm tracking-[0.2em] uppercase font-semibold hover:text-amber transition-colors duration-300"
+          className="group relative flex items-center gap-2.5 hover:opacity-90 transition-opacity duration-300"
           aria-label="HarlindoJaya home"
         >
-          HARLINDO<span className="text-amber">.JAYA</span>
+          {/* Accent mark */}
+          <span
+            aria-hidden
+            className="block w-[3px] h-6 rounded-full bg-amber transition-all duration-300 group-hover:h-7"
+          />
+          {/* Wordmark */}
+          <span className="flex items-baseline gap-0 text-[15px] font-semibold tracking-[0.14em] uppercase text-fg-primary">
+            <span>HARLINDO</span>
+            <span className="text-amber text-lg leading-none">.</span>
+            <span className="font-light">JAYA</span>
+          </span>
         </Link>
 
         <nav className="hidden lg:flex items-center gap-8" aria-label="Primary">
