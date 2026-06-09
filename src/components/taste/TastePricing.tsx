@@ -28,6 +28,7 @@ export function TastePricing() {
             >
               Pilih kapasitas
               <br />
+{" "}
               <span className="text-[var(--taste-amber)] italic font-light">
                 sesuai kebutuhan.
               </span>

@@ -19,6 +19,7 @@ export function Clients() {
             >
               Beberapa pekerjaan
               <br />
+{" "}
               <span className="text-amber italic font-light">
                 yang telah kami selesaikan.
               </span>

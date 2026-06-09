@@ -53,6 +53,7 @@ export default function TasteKontakPage() {
           <>
             We&apos;d Love to
             <br />
+{" "}
             <span className="text-[var(--taste-amber)] italic font-light">
               Hear from You.
             </span>
@@ -166,6 +167,7 @@ export default function TasteKontakPage() {
               <h2 className="taste-display text-[clamp(1.75rem,3.5vw,2.75rem)]">
                 Kunjungan dan
                 <br />
+{" "}
                 <span className="text-[var(--taste-amber)] italic font-light">
                   jadwal survei lokasi.
                 </span>

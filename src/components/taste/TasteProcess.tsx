@@ -24,6 +24,7 @@ export function TasteProcess() {
             >
               Prosedur pemesanan
               <br />
+{" "}
               <span className="text-[var(--steel-secondary)] font-light italic">
                 yang sederhana.
               </span>

@@ -20,10 +20,10 @@ const iconMap: Record<string, any> = {
 };
 
 const heroImages = [
-  "/images/services/service-img1.png",
-  "/images/services/service-img2.png",
-  "/images/services/service-img3.png",
-  "/images/services/service-img4.png",
+  "/images/services/service-img1.webp",
+  "/images/services/service-img2.webp",
+  "/images/services/service-img3.webp",
+  "/images/services/service-img4.webp",
 ];
 
 export default function LayananPage() {
@@ -35,6 +35,7 @@ export default function LayananPage() {
           <>
             Berbagai Pelayanan Genset
             <br />
+{" "}
             <span className="text-amber italic font-light">di HarlindoJaya.</span>
           </>
         }

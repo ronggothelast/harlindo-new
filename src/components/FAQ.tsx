@@ -23,6 +23,7 @@ export function FAQ() {
           >
             Pertanyaan
             <br />
+{" "}
             <span className="text-fg-secondary font-light italic">
               yang sering ditanyakan.
             </span>

@@ -35,10 +35,10 @@ export const metadata: Metadata = {
       "Instalasi, Jual Beli, dan Service Genset, Power House, Overhaul, Paralelisasi, serta Instalasi Industri. Layanan 24 jam Jabodetabek.",
     images: [
       {
-        url: "/images/fav-logo1.png",
-        width: 800,
-        height: 600,
-        alt: "HarlindoJaya",
+        url: "/images/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "HarlindoJaya - Rental & Service Genset",
       },
     ],
   },
@@ -48,6 +48,7 @@ export const metadata: Metadata = {
     description:
       "Rental & Service Genset 20kVA–2000kVA. Layanan 24 jam Jabodetabek.",
   },
+  alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   icons: {
     icon: "/images/fav-logo1.png",
@@ -77,7 +78,7 @@ const businessJsonLd = {
     addressCountry: "ID",
   },
   areaServed: contact.serviceArea,
-  openingHours: "Mo-Fr 08:00-17:00",
+  openingHours: "Mo-Su 00:00-24:00",
   sameAs: ["https://www.instagram.com/HarlindoJaya/"],
   makesOffer: services.map((service) => ({
     "@type": "Offer",
@@ -89,17 +90,12 @@ const businessJsonLd = {
   })),
 };
 
-const faqJsonLd = {
+const breadcrumbJsonLd = {
   "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: faq.map((item) => ({
-    "@type": "Question",
-    name: item.question,
-    acceptedAnswer: {
-      "@type": "Answer",
-      text: item.answer,
-    },
-  })),
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Beranda", item: seo.baseUrl },
+  ],
 };
 
 export default function RootLayout({
@@ -129,7 +125,7 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />
         <noscript>
           <iframe

@@ -19,6 +19,7 @@ export function Pricing() {
             >
               Pilih kapasitas
               <br />
+{" "}
               <span className="text-amber italic font-light">sesuai kebutuhan.</span>
             </h2>
           </div>

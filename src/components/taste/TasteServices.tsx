@@ -2,10 +2,10 @@ import Image from "next/image";
 import { services } from "@/data/business";
 
 const serviceImages = [
-  "/images/services/service-img1.png",
-  "/images/services/service-img2.png",
-  "/images/services/service-img3.png",
-  "/images/services/service-img4.png",
+  "/images/services/service-img1.webp",
+  "/images/services/service-img2.webp",
+  "/images/services/service-img3.webp",
+  "/images/services/service-img4.webp",
 ];
 
 export function TasteServices() {
@@ -32,6 +32,7 @@ export function TasteServices() {
             >
               Berbagai Pelayanan
               <br />
+{" "}
               <span className="text-[var(--steel-secondary)] font-light italic">
                 Genset di HarlindoJaya.
               </span>

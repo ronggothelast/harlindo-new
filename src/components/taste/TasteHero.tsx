@@ -36,10 +36,11 @@ export function TasteHero() {
             >
               Siap menjadi
               <br />
+{" "}
               mitra
               <span className="taste-inline-img" aria-hidden>
                 <Image
-                  src="/images/services/service-img1.png"
+                  src="/images/services/service-img1.webp"
                   alt=""
                   width={120}
                   height={120}
@@ -47,6 +48,7 @@ export function TasteHero() {
               </span>
               terbaik
               <br />
+{" "}
               <span className="text-[var(--taste-amber)] italic font-light">
                 anda!
               </span>
@@ -87,7 +89,7 @@ export function TasteHero() {
             <div className="taste-card !p-2 overflow-hidden">
               <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden bg-[var(--canvas-white)]">
                 <Image
-                  src="/images/hero/header-img1.png"
+                  src="/images/hero/header-img1.webp"
                   alt="Unit genset HarlindoJaya"
                   fill
                   priority

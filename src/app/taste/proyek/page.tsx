@@ -12,12 +12,12 @@ export const metadata: Metadata = {
 };
 
 const projectImages = [
-  "/images/clients/work-img1.png",
-  "/images/clients/work-img2.png",
-  "/images/clients/work-img3.png",
-  "/images/clients/work-img4.png",
-  "/images/clients/work-img5.png",
-  "/images/clients/work-img6.png",
+  "/images/clients/work-img1.webp",
+  "/images/clients/work-img2.webp",
+  "/images/clients/work-img3.webp",
+  "/images/clients/work-img4.webp",
+  "/images/clients/work-img5.webp",
+  "/images/clients/work-img6.webp",
 ];
 
 export default function TasteProyekPage() {
@@ -29,6 +29,7 @@ export default function TasteProyekPage() {
           <>
             Beberapa pekerjaan
             <br />
+{" "}
             <span className="text-[var(--taste-amber)] italic font-light">
               yang telah kami selesaikan.
             </span>

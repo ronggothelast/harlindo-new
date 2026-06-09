@@ -24,6 +24,7 @@ export function TasteCTA() {
             >
               Butuh Daya
               <br />
+{" "}
               <span className="text-[var(--taste-amber)] italic font-light">
                 Segera?
               </span>

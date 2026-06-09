@@ -19,6 +19,7 @@ export default function TasteFaqPage() {
           <>
             Pertanyaan
             <br />
+{" "}
             <span className="text-[var(--taste-amber)] italic font-light">
               yang sering ditanyakan.
             </span>

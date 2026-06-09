@@ -29,6 +29,7 @@ export function TasteFAQ() {
             >
               Pertanyaan
               <br />
+{" "}
               <span className="text-[var(--steel-secondary)] font-light italic">
                 yang sering ditanyakan.
               </span>

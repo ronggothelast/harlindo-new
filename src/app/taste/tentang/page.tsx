@@ -19,6 +19,7 @@ export default function TasteTentangPage() {
           <>
             Kenapa harus
             <br />
+{" "}
             <span className="text-[var(--taste-amber)] italic font-light">
               HarlindoJaya?
             </span>
@@ -36,6 +37,7 @@ export default function TasteTentangPage() {
               <h2 className="taste-display text-[clamp(2rem,4vw,3.25rem)]">
                 Menjadi Pilihan Terbaik
                 <br />
+{" "}
                 <span className="text-[var(--taste-amber)] italic font-light">
                   dalam Layanan Berkualitas.
                 </span>
@@ -73,6 +75,7 @@ export default function TasteTentangPage() {
             <h2 className="taste-display text-[clamp(2rem,4.5vw,3.5rem)]">
               Tiga alasan utama klien
               <br />
+{" "}
               <span className="text-[var(--steel-secondary)] font-light italic">
                 memilih HarlindoJaya.
               </span>
@@ -153,6 +156,7 @@ export default function TasteTentangPage() {
               <h2 className="taste-display text-[clamp(1.75rem,3.5vw,2.75rem)]">
                 Berbasis di Bogor,
                 <br />
+{" "}
                 <span className="text-[var(--taste-amber)] italic font-light">
                   melayani Jabodetabek.
                 </span>

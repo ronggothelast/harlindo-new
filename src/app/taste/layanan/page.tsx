@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 };
 
 const serviceImages = [
-  "/images/services/service-img1.png",
-  "/images/services/service-img2.png",
-  "/images/services/service-img3.png",
-  "/images/services/service-img4.png",
+  "/images/services/service-img1.webp",
+  "/images/services/service-img2.webp",
+  "/images/services/service-img3.webp",
+  "/images/services/service-img4.webp",
 ];
 
 export default function TasteLayananPage() {
@@ -27,6 +27,7 @@ export default function TasteLayananPage() {
           <>
             Berbagai Pelayanan Genset
             <br />
+{" "}
             <span className="text-[var(--taste-amber)] italic font-light">
               di HarlindoJaya.
             </span>

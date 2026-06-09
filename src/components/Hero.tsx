@@ -91,7 +91,7 @@ export function Hero() {
           <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden border border-line bg-bg-surface/40 p-1.5 shadow-card-deep">
             <div className="relative h-full w-full rounded-[calc(2rem-0.375rem)] overflow-hidden bg-bg-card">
               <Image
-                src="/images/hero/header-img1.png"
+                src="/images/hero/header-img1.webp"
                 alt="HarlindoJaya genset operational"
                 fill
                 priority

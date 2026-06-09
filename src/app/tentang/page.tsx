@@ -34,6 +34,7 @@ export default function TentangPage() {
           <>
             Kenapa harus
             <br />
+{" "}
             <span className="text-amber italic font-light">
               HarlindoJaya?
             </span>
@@ -51,6 +52,7 @@ export default function TentangPage() {
               <h2 className="text-4xl lg:text-5xl font-bold leading-[1.05] tracking-tightest">
                 Menjadi Pilihan Terbaik
                 <br />
+{" "}
                 <span className="text-amber italic font-light">
                   dalam Layanan Berkualitas.
                 </span>
@@ -88,6 +90,7 @@ export default function TentangPage() {
             <h2 className="text-4xl lg:text-6xl font-bold leading-[1.05] tracking-tightest max-w-3xl">
               Tiga alasan utama klien
               <br />
+{" "}
               <span className="text-fg-secondary font-light italic">
                 memilih HarlindoJaya.
               </span>
@@ -164,6 +167,7 @@ export default function TentangPage() {
               <h2 className="text-3xl lg:text-5xl font-bold tracking-tight leading-[1.05]">
                 Berbasis di Bogor,
                 <br />
+{" "}
                 <span className="text-amber italic font-light">
                   melayani Jabodetabek.
                 </span>

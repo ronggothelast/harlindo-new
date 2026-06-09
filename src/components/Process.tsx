@@ -18,6 +18,7 @@ export function Process() {
             >
               Prosedur pemesanan
               <br />
+{" "}
               <span className="text-fg-secondary font-light italic">
                 yang sederhana.
               </span>

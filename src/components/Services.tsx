@@ -27,6 +27,7 @@ export function Services() {
             >
               Berbagai Pelayanan
               <br />
+{" "}
               <span className="text-fg-secondary font-light italic">
                 Genset di HarlindoJaya.
               </span>

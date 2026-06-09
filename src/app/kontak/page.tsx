@@ -67,6 +67,7 @@ export default function KontakPage() {
           <>
             We'd Love to
             <br />
+{" "}
             <span className="text-amber italic font-light">Hear from You.</span>
           </>
         }
@@ -156,6 +157,7 @@ export default function KontakPage() {
               <h2 className="text-3xl lg:text-5xl font-bold tracking-tight leading-[1.05]">
                 Kunjungan dan
                 <br />
+{" "}
                 <span className="text-amber italic font-light">
                   jadwal survei lokasi.
                 </span>
