@@ -12,18 +12,18 @@ export function Hero() {
     >
       {/* Ambient glow background */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute top-1/4 -left-1/4 h-[800px] w-[800px] rounded-full bg-amber/10 blur-[180px] animate-ambient-glow" />
-        <div className="absolute bottom-0 right-0 h-[600px] w-[600px] rounded-full bg-sky-200/30 blur-[140px]" />
+        <div className="absolute top-1/4 -left-1/4 h-[800px] w-[800px] rounded-full bg-amber/15 blur-[180px] animate-ambient-glow" />
+        <div className="absolute bottom-0 right-0 h-[600px] w-[600px] rounded-full bg-amber/20 blur-[140px]" />
       </div>
 
       {/* Grid lines */}
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 opacity-[0.03]"
+        className="pointer-events-none absolute inset-0 opacity-[0.04]"
         style={{
           backgroundImage:
             "linear-gradient(to right, white 1px, transparent 1px), linear-gradient(to bottom, white 1px, transparent 1px)",
-          backgroundSize: "80px 80px",
+          backgroundSize: "60px 60px",
         }}
       />
 
@@ -121,7 +121,7 @@ export function Hero() {
           <div className="absolute -bottom-6 -left-6 lg:-left-12 hidden md:block">
             <div className="rounded-2xl bg-bg-elevated/90 backdrop-blur-xl border border-line-strong p-5 shadow-card-deep w-64">
               <div className="flex items-center gap-3">
-                <div className="h-10 w-10 rounded-full bg-amber/10 flex items-center justify-center">
+                <div className="h-10 w-10 rounded-full bg-amber/15 flex items-center justify-center">
                   <Lightning weight="light" size={20} className="text-amber" />
                 </div>
                 <div>
